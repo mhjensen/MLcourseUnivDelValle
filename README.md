@@ -13,7 +13,7 @@ various labs and so on. This deluge of data calls for automated
 methods of data analysis, which is exactly what machine learning aims
 at providing.
 
-This series of lectures aim at giving you an understanding on how to
+These lectures aim at giving you an understanding on how to
 use deep learning methods like neural networks to solve differential
 equations.
 
@@ -27,7 +27,7 @@ Thereafter, for the in-person week we will focus on
 
 You can access all learning material by going to the /doc/pub folder
 and from navigate to the various sessions.  The material is provided
-in forms of jupyter-notebooks and html-slides. Feel free to use the
+in the format of jupyter-notebooks and html-slides. Feel free to use the
 format of your own choice.  During the lectures we will mainly use the
 jupyter-notebooks. See below for instructions on how to install
 various software elements.
