@@ -13,6 +13,28 @@ various labs and so on. This deluge of data calls for automated
 methods of data analysis, which is exactly what machine learning aims
 at providing.
 
+This series of lectures aim at giving you an understanding on how to
+use deep learning methods like neural networks to solve differential
+equations.
+
+The online (zoom) session on October 10 will focus on the basics of
+setting up a neural network and the elements you would need to build
+your own code.
+Thereafter, for the in-person week we will focus on
+- Deep learning methods for solving ordinary differential equations
+- Deep learning methods for solving partial differential equations
+- Physics informed neural networks (PINNs)
+
+You can access all learning material by going to the /doc/pub folder
+and from navigate to the various sessions.  The material is provided
+in forms of jupyter-notebooks and html-slides. Feel free to use the
+format of your own choice.  During the lectures we will mainly use the
+jupyter-notebooks. See below for instructions on how to install
+various software elements.
+
+The zoom link for the session at 10am Colombian time of October 10 is
+https://us02web.zoom.us/j/88178994859?pwd=hlAM80sYPcSsFegbe5eGiEbyBCBHZT.1
+
 
 ## Prerequisites and background
 
@@ -20,10 +42,6 @@ Basic knowledge in programming and mathematics, with an emphasis on
 linear algebra. Knowledge of Python or/and C++ as programming
 languages is strongly recommended and experience with Jupyter
 notebooks is recommended.
-We recommend also refreshing your knowledge on Statistics and Probability
-theory. The lecture notes at
-https://compphysics.github.io/MachineLearning/doc/LectureNotes/_build/html/intro.html
-offer a review of Statistics and Probability theory.
 
 
 ## Required Technologies
@@ -108,15 +126,15 @@ _Recommended textbooks_:
 
 In addition to the electure notes, we recommend the books of
 Goodfellow et al. and Raschka et al. We will follow these texts
-closely and the weekly reading assignments refer to these two texts.
+closely.
 
-- Ian Goodfellow, Yoshua Bengio, and Aaron Courville. The different chapters are available for free at https://www.deeplearningbook.org/. Chapters 2-14 are highly recommended. The lectures follow to a good extent this text.
+- Ian Goodfellow, Yoshua Bengio, and Aaron Courville. The different chapters are available for free at https://www.deeplearningbook.org/. Chapters 2-14 are highly recommended. The lectures follow to a good extent their chapters 6-8..
 - Sebastian Raschka, Yuxi Lie, and Vahid Mirjalili,  Machine Learning with PyTorch and Scikit-Learn at https://www.packtpub.com/product/machine-learning-with-pytorch-and-scikit-learn/9781801819312, see also https://sebastianraschka.com/blog/2022/ml-pytorch-book.html
 
-The text by Raschka et al. is well-adapted to this text and contains many coding examples. 
+The text by Raschka et al. is well-adapted to these lectures and contains many coding examples. We recommend reading chapter 11.
 
 _Additional textbooks_:
-- Christopher M. Bishop, Pattern Recognition and Machine Learning, Springer, https://www.springer.com/gp/book/9780387310732. This is the main textbook and this course covers chapters 1-7, 11 and 12. You can download for free the textbook in PDF format at https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf
+- Christopher M. Bishop, Pattern Recognition and Machine Learning, Springer, https://www.springer.com/gp/book/9780387310732.  You can download for free the textbook in PDF format at https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf
 - Kevin Murphy, Probabilistic Machine Learning, an Introduction, https://probml.github.io/pml-book/book1.html
 - Trevor Hastie, Robert Tibshirani, Jerome H. Friedman, The Elements of Statistical Learning, Springer, https://www.springer.com/gp/book/9780387848570. This is a well-known text and serves as additional literature.
 - Aurelien Geron, Hands‑On Machine Learning with Scikit‑Learn and TensorFlow, O'Reilly, https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/. This text is very useful since it contains many code examples and hands-on applications of all algorithms discussed in this course.
