@@ -1,5 +1,5 @@
 # Deep learning  methods for solving differential equations
-
+## Lectures on deep learning methods at Universidad del Valle, October-November 2024
 
 ## Introduction
 
