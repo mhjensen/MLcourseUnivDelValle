@@ -59,7 +59,7 @@ mkdir $dest/$name/pdf
 mkdir $dest/$name/html
 mkdir $dest/$name/ipynb
 fi
-cp ${name}*.pdf $dest/$name/pdf
+#cp ${name}*.pdf $dest/$name/pdf
 cp -r ${name}*.html ._${name}*.html reveal.js $dest/$name/html
 
 # Figures: cannot just copy link, need to physically copy the files
