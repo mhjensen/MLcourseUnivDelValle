@@ -1,7 +1,5 @@
-# Applied Data Analysis and Machine Learning
+# Deep learning  methods for solving differential equations
 
-This site contains all material relevant for the course on Applied
-Data Analysis and Machine Learning.
 
 ## Introduction
 
@@ -15,33 +13,6 @@ various labs and so on. This deluge of data calls for automated
 methods of data analysis, which is exactly what machine learning aims
 at providing.
 
-## Learning outcomes
-
-This course aims at giving you insights and knowledge about many of
-the central algorithms used in Data Analysis and Machine Learning.
-The course is project based and through various numerical projects and
-weekly exercises you will be exposed to fundamental research problems
-in these fields, with the aim to reproduce state of the art scientific
-results. Both supervised and unsupervised methods will be covered. The
-emphasis is on a frequentist approach with an emphasis on predictions
-and correaltions. However, we will try, where appropriate, to link our
-machine learning models with a Bayesian approach as well. You will
-learn to develop and structure large codes for studying different
-cases where Machine Learning is applied to, get acquainted with
-computing facilities and learn to handle large scientific projects. A
-good scientific and ethical conduct is emphasized throughout the
-course. More specifically, after this course you will
-
-- Learn about basic data analysis, statistical analysis, Bayesian statistics, Monte Carlo sampling, data optimization and machine learning;
-- Be capable of extending the acquired knowledge to other systems and cases;
-- Have an understanding of central algorithms used in data analysis and machine learning;
-- Understand linear methods for regression and classification, from ordinary least squares, via Lasso and Ridge to Logistic regression and Kernel regression;
-- Learn about neural networks and deep  learning methods for supervised and unsupervised learning. Emphasis on feed forward neural networks, convolutional and recurrent neural networks; 
-- Learn about about decision trees, random forests, bagging and boosting methods;
-- Learn about support vector machines and kernel transformations;
-- Reduction of data sets and unsupervised learning, from PCA to clustering;
-- Autoencoders and Reinforcement Learning;
-- Work on numerical projects to illustrate the theory. The projects play a central role and you are expected to know modern programming languages like Python or C++ and/or Fortran (Fortran2003 or later).  
 
 ## Prerequisites and background
 
@@ -54,103 +25,6 @@ theory. The lecture notes at
 https://compphysics.github.io/MachineLearning/doc/LectureNotes/_build/html/intro.html
 offer a review of Statistics and Probability theory.
 
-## The course has two central parts
-
-1. Statistical analysis and optimization of data
-2. Machine learning algorithms and Deep Learning
-
-
-### Statistical analysis and optimization of data
-
-The following topics are normally be covered
-- Basic concepts, expectation values, variance, covariance, correlation functions and errors;
-- Simpler models, binomial distribution, the Poisson distribution, simple and multivariate normal distributions;
-- Central elements of Bayesian statistics and modeling;
-- Gradient methods for data optimization, 
-- Monte Carlo methods, Markov chains, Gibbs sampling and Metropolis-Hastings sampling;
-- Estimation of errors and resampling techniques such as the cross-validation, blocking, bootstrapping and jackknife methods;
-- Principal Component Analysis (PCA) and its mathematical foundation
-
-### Machine learning
-
-The following topics are typically  covered:
-- Linear Regression and Logistic Regression;
-- Neural networks and deep learning, including convolutional and recurrent neural networks
-- Decisions trees, Random Forests, Bagging and Boosting
-- Support vector machines
-- Bayesian linear and logistic regression
-- Boltzmann Machines and generative models
-- Unsupervised learning Dimensionality reduction, PCA, k-means and  clustering
-- Autoenconders
-- Generative algorithms
-
-Not all these topics may be covered by FYS-STK3155/4155. Some of them, like generative models and Bayesian statistics are covered by the advanced course FYS5429.
-
-Hands-on demonstrations, exercises and projects aim at deepening your understanding of these topics.
-
-Computational aspects play a central role and you are expected to work
-on numerical examples and projects which illustrate the theory and
-various algorithms discussed during the lectures. We recommend
-strongly to form small project groups of 2-3 participants, if
-possible.
-
-## Instructor information
-
-
-##  Teaching team Fall 2023
-* Karl Henrik Fredly, k.h.fredly@fys.uio.no
-* Morten Hjorth-Jensen, mhjensen@uio.no
-  * _Phone_: +47-48257387
-  * _Office_: Department of Physics, room FØ470 
-  * _Office hours_: *Anytime*! Individual or group office hours can be performed either in person or via zoom. Feel free to send an email for planning.
-* Sigurd k. Huse, s.k.huse@fys.uio.no 
-* Odin Johansen, odin.johansen@fys.uio.no
-* Fahimeh Najafi, fahimeh.najafi@fys.uio.no
-* Mia-Katrin Ose Kvalsund, m.k.o.kvalsund@fys.uio.no
-* Ida Torkjellsdatter Storehaug, i.t.storehaug@fys.uio.no
-
-
-##  Discord as discussion tool
-* Our Discord channel is at https://discord.gg/mKq3zjxP
-
-
-## Practicalities
-
-1. The sessions on Tuesdays and Wednesdays last four hours for each group (four in total) and will include lectures in a flipped mode (promoting active learning) and work on exercices and projects.  The sessions will begin with lectures and questions and answers about the material to be covered every week.
-2. There are four groups, Tuesdays 815am-12pm and 1215pm-4pm and Wednesdays 815am-12pm and 1215pm-4pm. Please sign up as soon as possible for one of the groups. Max capacity per group is 30-40 participants.
-
-3. On Mondays  we have a regular lecture. These lectures start at 1015am and end at 12pm. These lectures are recorded.
-4. Three projects which are graded and count 1/3 each of the final grade;
-5. A selected number of weekly assignments. The weekly assignments can be handed in and for all assignments you can get an extra score of 20 points to the final grade.
-6. The course is part of the CS Master of Science program, but is open to other bachelor and Master of Science students at the University of Oslo;
-7. The course is offered as a so-called _cloned_ course,  FYS-STK4155 at the Master of Science level and FYS-STK3155 as a senior undergraduate)course;
-8. Videos of teaching material are available via the links at https://compphysics.github.io/MachineLearning/doc/web/course.html;
-9. Weekly email with summary of activities will be mailed to all participants;
-
-
-## Grading
-Grading scale: Grades are awarded on a scale from A to F, where A is the best grade and F is a fail. There are three projects which are graded and each project counts 1/3 of the final grade. The total score is thus the average from all three projects.
-
-The final number of points is based on the average of all projects (including eventual additional points) and the grade follows the following table:
-
- * 92-100 points: A
- * 77-91 points: B
- * 58-76 points: C
- * 46-57 points: D
- * 40-45 points: E
- * 0-39 points: F-failed
-
-
-### In summary
-
-| Activity | Fraction of total grade |
-|------|-----|
-| First project, _due October 7_ | 1/3 |
-| Second  project, _due November 4_ | 1/3 |
-| Third project, _due December 9_ |  1/3  |
-| Extra Credit (not mandatory),  weekly exercise assignments, 10 in total (due Fridays)| 10% |
-
-
 
 ## Required Technologies
 
@@ -158,12 +32,7 @@ Course participants are expected to have their own laptops/PCs. We use _Git_ as 
 
 We will make extensive use of Python as programming language and its
 myriad of available libraries.  You will find
-Jupyter notebooks invaluable in your work.  You can run _R_
-codes in the Jupyter/IPython notebooks, with the immediate benefit of
-visualizing your data. You can also use compiled languages like C++,
-Rust, Julia, Fortran etc if you prefer. The focus in these lectures will be 
-on Python.
-
+Jupyter notebooks invaluable in your work.
 
 If you have Python installed and you feel
 pretty familiar with installing different packages, we recommend that
@@ -236,16 +105,15 @@ Here we list several useful Python libraries we strongly recommend (if you use a
 
 _Recommended textbooks_:
 
-The lecture notes are collected as a jupyter-book at
-https://compphysics.github.io/MachineLearning/doc/LectureNotes/_build/html/intro.html. In
-addition to the electure notes, we recommend the books of Goodfellow et al. and Raschka et al. We will follow these texts closely and
-the weekly reading assignments refer to these two texts.
+
+In addition to the electure notes, we recommend the books of
+Goodfellow et al. and Raschka et al. We will follow these texts
+closely and the weekly reading assignments refer to these two texts.
 
 - Ian Goodfellow, Yoshua Bengio, and Aaron Courville. The different chapters are available for free at https://www.deeplearningbook.org/. Chapters 2-14 are highly recommended. The lectures follow to a good extent this text.
 - Sebastian Raschka, Yuxi Lie, and Vahid Mirjalili,  Machine Learning with PyTorch and Scikit-Learn at https://www.packtpub.com/product/machine-learning-with-pytorch-and-scikit-learn/9781801819312, see also https://sebastianraschka.com/blog/2022/ml-pytorch-book.html
 
 The text by Raschka et al. is well-adapted to this text and contains many coding examples. 
-The weekly plans will include reading suggestions from these two textbooks. In addition, you may find the following textbooks interesting.
 
 _Additional textbooks_:
 - Christopher M. Bishop, Pattern Recognition and Machine Learning, Springer, https://www.springer.com/gp/book/9780387310732. This is the main textbook and this course covers chapters 1-7, 11 and 12. You can download for free the textbook in PDF format at https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf
@@ -258,28 +126,6 @@ _Additional textbooks_:
 _General learning book on statistical analysis_:
 - Christian Robert and George Casella, Monte Carlo Statistical Methods, Springer
 - Peter Hoff, A first course in Bayesian statistical models, Springer
-
-
-## Links to relevant courses at the University of Oslo
-
-- _FYS5429 Advanced Machine Learning for the Physical Sciences_ https://www.uio.no/studier/emner/matnat/fys/FYS5429/index-eng.html
-- _FYS5419 Quantum Computing and Quantum Machine Learning_ https://www.uio.no/studier/emner/matnat/fys/FYS5419/index-eng.html
-- _STK2100 Machine learning and statistical methods for prediction and classification_ http://www.uio.no/studier/emner/matnat/math/STK2100/index-eng.html.  
-- _IN3050/4050 Introduction to Artificial Intelligence and Machine Learning_ https://www.uio.no/studier/emner/matnat/ifi/IN3050/index-eng.html. Introductory course in machine learning and AI with an algorithmic approach. 
-- _IN4080 Natural Language Processing_ https://www.uio.no/studier/emner/matnat/ifi/IN4080/index.html. Probabilistic and machine learning techniques applied to natural language processing. 
-- _IN5550 – Neural Methods in Natural Language Processing_ https://www.uio.no/studier/emner/matnat/ifi/IN5550/index.html. This course studies a selection of advanced techniques in Natural Language Processing (NLP), with particular emphasis on recent and current research literature. The focus will be on machine learning and specifically deep neural network approaches to the automated analysis of natural language text.
-- _STK-IN4300 Statistical learning methods in Data Science_ https://www.uio.no/studier/emner/matnat/math/STK-IN4300/index-eng.html. An advanced introduction to statistical and machine learning. For students with a good mathematics and statistics background.
-- _IN-STK5000  Adaptive Methods for Data-Based Decision Making_ https://www.uio.no/studier/emner/matnat/ifi/IN-STK5000/index-eng.html. Methods for adaptive collection and processing of data based on machine learning techniques. 
-- _IN4310 Deep Learning for Image Analysis_ https://www.uio.no/studier/emner/matnat/ifi/IN4310/index.html. An introduction to deep learning with particular emphasis on applications within Image analysis, but useful for other application areas too.
-- _STK4051 Computational Statistics_ https://www.uio.no/studier/emner/matnat/math/STK4051/index-eng.html
-- _STK4021 Applied Bayesian Analysis and Numerical Methods_ https://www.uio.no/studier/emner/matnat/math/STK4021/
-
-
-
-
-
-
- 
 
 
 
