@@ -26,7 +26,10 @@ Thereafter, for the in-person week we will focus on
 - Physics informed neural networks (PINNs)
 
 You can access all learning material by going to the /doc/pub folder
-and from navigate to the various sessions.  The material is provided
+and from navigate to the various sessions.
+The lectures for October 10 are at https://github.com/mhjensen/MLcourseUnivDelValle/tree/main/doc/pub/LectureOctober10
+
+The material is provided
 in the format of jupyter-notebooks and html-slides. Feel free to use the
 format of your own choice.  During the lectures we will mainly use the
 jupyter-notebooks. See below for instructions on how to install
