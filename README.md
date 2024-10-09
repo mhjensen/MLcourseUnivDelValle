@@ -3,16 +3,6 @@
 
 ## Introduction
 
-Probability theory and statistical methods play a central role in
-Science. Nowadays we are surrounded by huge amounts of data. For
-example, there are more than one trillion web pages; more than one
-hour of video is uploaded to YouTube every second, amounting to years
-of content every day; the genomes of 1000s of people, each of which
-has a length of more than a billion base pairs, have been sequenced by
-various labs and so on. This deluge of data calls for automated
-methods of data analysis, which is exactly what machine learning aims
-at providing.
-
 These lectures aim at giving you an understanding on how to
 use deep learning methods like neural networks to solve differential
 equations.
