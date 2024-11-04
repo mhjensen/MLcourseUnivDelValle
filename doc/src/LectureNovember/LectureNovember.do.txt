@@ -1,6 +1,6 @@
 TITLE: Week 43: Deep Learning: Constructing a Neural Network code and solving differential equations
 AUTHOR: Morten Hjorth-Jensen {copyright, 1999-present|CC BY-NC} at Department of Physics, University of Oslo & Department of Physics and Astronomy and Facility for Rare Isotope Beams, Michigan State University
-DATE: November 5, 2024
+DATE: November 5-8, 2024
 
 !split
 ===== Plans for November 5-8 =====
@@ -2648,9 +2648,10 @@ scores = logistic_regression.fit(X, yXOR, scheduler, epochs=1000)
 Not bad, but the results depend strongly on the learning reate. Try different learning rates.
 
 
-
 !split
-===== Lecture November 6, 2024 =====
+===== Pytorch example =====
+
+To be added later
 
 
 !split
@@ -5062,6 +5063,337 @@ o "Introduction to Partial Differential Equations by A. Tveito, R. Winther":"htt
 
 
 
+
+
+
+
+
+
+
+!split
+===== Fine-tuning neural network hyperparameters =====
+
+The flexibility of neural networks is also one of their main
+drawbacks: there are many hyperparameters to tweak. Not only can you
+use any imaginable network topology (how neurons/nodes are
+interconnected), but even in a simple FFNN you can change the number
+of layers, the number of neurons per layer, the type of activation
+function to use in each layer, the weight initialization logic, the
+stochastic gradient optmized and much more. How do you know what
+combination of hyperparameters is the best for your task?
+
+* You can use grid search with cross-validation to find the right hyperparameters.
+
+However,since there are many hyperparameters to tune, and since
+training a neural network on a large dataset takes a lot of time, you
+will only be able to explore a tiny part of the hyperparameter space.
+
+
+* You can use randomized search.
+* Or use tools like "Oscar":"http://oscar.calldesk.ai/", which implements more complex algorithms to help you find a good set of hyperparameters quickly.  
+
+!split
+===== Hidden layers =====
+
+
+
+For many problems you can start with just one or two hidden layers and
+it will work just fine.  For the MNIST data set you ca easily get a
+high accuracy using just one hidden layer with a few hundred neurons.
+You can reach for this data set above 98% accuracy using two hidden
+layers with the same total amount of neurons, in roughly the same
+amount of training time.
+
+For more complex problems, you can gradually ramp up the number of
+hidden layers, until you start overfitting the training set. Very
+complex tasks, such as large image classification or speech
+recognition, typically require networks with dozens of layers and they
+need a huge amount of training data. However, you will rarely have to
+train such networks from scratch: it is much more common to reuse
+parts of a pretrained state-of-the-art network that performs a similar
+task.
+
+
+
+
+!split 
+===== Vanishing gradients  =====
+
+The Back propagation algorithm we derived above works by going from
+the output layer to the input layer, propagating the error gradient on
+the way. Once the algorithm has computed the gradient of the cost
+function with regards to each parameter in the network, it uses these
+gradients to update each parameter with a Gradient Descent (GD) step.
+
+
+Unfortunately for us, the gradients often get smaller and smaller as
+the algorithm progresses down to the first hidden layers. As a result,
+the GD update leaves the lower layer connection weights virtually
+unchanged, and training never converges to a good solution. This is
+known in the literature as _the vanishing gradients problem_.
+
+!split
+===== Exploding gradients =====
+
+In other cases, the opposite can happen, namely the the gradients can
+grow bigger and bigger. The result is that many of the layers get
+large updates of the weights the algorithm diverges. This is the
+_exploding gradients problem_, which is mostly encountered in
+recurrent neural networks. More generally, deep neural networks suffer
+from unstable gradients, different layers may learn at widely
+different speeds
+
+
+
+!split 
+===== Is the Logistic activation function (Sigmoid)  our choice? =====
+
+Although this unfortunate behavior has been empirically observed for
+quite a while (it was one of the reasons why deep neural networks were
+mostly abandoned for a long time), it is only around 2010 that
+significant progress was made in understanding it.
+
+A paper titled "Understanding the Difficulty of Training Deep
+Feedforward Neural Networks by Xavier Glorot and Yoshua Bengio":"http://proceedings.mlr.press/v9/glorot10a.html" found that
+the problems with the popular logistic
+sigmoid activation function and the weight initialization technique
+that was most popular at the time, namely random initialization using
+a normal distribution with a mean of 0 and a standard deviation of
+1. 
+
+!split
+===== Logistic function as the root of problems =====
+
+They showed that with this activation function and this
+initialization scheme, the variance of the outputs of each layer is
+much greater than the variance of its inputs. Going forward in the
+network, the variance keeps increasing after each layer until the
+activation function saturates at the top layers. This is actually made
+worse by the fact that the logistic function has a mean of 0.5, not 0
+(the hyperbolic tangent function has a mean of 0 and behaves slightly
+better than the logistic function in deep networks).
+
+
+!split
+===== The derivative of the Logistic funtion =====
+
+Looking at the logistic activation function, when inputs become large
+(negative or positive), the function saturates at 0 or 1, with a
+derivative extremely close to 0. Thus when backpropagation kicks in,
+it has virtually no gradient to propagate back through the network,
+and what little gradient exists keeps getting diluted as
+backpropagation progresses down through the top layers, so there is
+really nothing left for the lower layers.
+
+In their paper, Glorot and Bengio propose a way to significantly
+alleviate this problem. We need the signal to flow properly in both
+directions: in the forward direction when making predictions, and in
+the reverse direction when backpropagating gradients. We don’t want
+the signal to die out, nor do we want it to explode and saturate. For
+the signal to flow properly, the authors argue that we need the
+variance of the outputs of each layer to be equal to the variance of
+its inputs, and we also need the gradients to have equal variance
+before and after flowing through a layer in the reverse direction.
+
+
+!split
+===== Insights from the paper by Glorot and Bengio =====
+
+One of the insights in the 2010 paper by Glorot and Bengio was that
+the vanishing/exploding gradients problems were in part due to a poor
+choice of activation function. Until then most people had assumed that
+if Nature had chosen to use roughly sigmoid activation functions in
+biological neurons, they must be an excellent choice. But it turns out
+that other activation functions behave much better in deep neural
+networks, in particular the ReLU activation function, mostly because
+it does not saturate for positive values (and also because it is quite
+fast to compute).
+
+
+
+!split
+===== The RELU function family =====
+
+The ReLU activation function suffers from a problem known as the dying
+ReLUs: during training, some neurons effectively die, meaning they
+stop outputting anything other than 0.
+
+In some cases, you may find that half of your network’s neurons are
+dead, especially if you used a large learning rate. During training,
+if a neuron’s weights get updated such that the weighted sum of the
+neuron’s inputs is negative, it will start outputting 0. When this
+happen, the neuron is unlikely to come back to life since the gradient
+of the ReLU function is 0 when its input is negative.
+
+!split
+===== ELU function =====
+
+To solve this problem, nowadays practitioners use a variant of the
+ReLU function, such as the leaky ReLU discussed above or the so-called
+exponential linear unit (ELU) function
+
+
+!bt
+\[
+ELU(z) = \left\{\begin{array}{cc} \alpha\left( \exp{(z)}-1\right) & z < 0,\\  z & z \ge 0.\end{array}\right. 
+\]
+!et
+
+!split
+===== Which activation function should we use? =====
+
+In general it seems that the ELU activation function is better than
+the leaky ReLU function (and its variants), which is better than
+ReLU. ReLU performs better than $\tanh$ which in turn performs better
+than the logistic function.
+
+If runtime performance is an issue, then you may opt for the leaky
+ReLU function over the ELU function If you don’t want to tweak yet
+another hyperparameter, you may just use the default $\alpha$ of
+$0.01$ for the leaky ReLU, and $1$ for ELU. If you have spare time and
+computing power, you can use cross-validation or bootstrap to evaluate
+other activation functions.
+
+
+!split
+=====  More on activation functions, output layers =====
+
+In most cases you can use the ReLU activation function in the hidden
+layers (or one of its variants).
+
+It is a bit faster to compute than other activation functions, and the
+gradient descent optimization does in general not get stuck.
+
+_For the output layer:_
+
+* For classification the softmax activation function is generally a good choice for classification tasks (when the classes are mutually exclusive).
+* For regression tasks, you can simply use no activation function at all.
+
+
+
+
+!split
+===== Batch Normalization =====
+
+Batch Normalization aims to address the vanishing/exploding gradients
+problems, and more generally the problem that the distribution of each
+layer’s inputs changes during training, as the parameters of the
+previous layers change.
+
+The technique consists of adding an operation in the model just before
+the activation function of each layer, simply zero-centering and
+normalizing the inputs, then scaling and shifting the result using two
+new parameters per layer (one for scaling, the other for shifting). In
+other words, this operation lets the model learn the optimal scale and
+mean of the inputs for each layer.  In order to zero-center and
+normalize the inputs, the algorithm needs to estimate the inputs’ mean
+and standard deviation. It does so by evaluating the mean and standard
+deviation of the inputs over the current mini-batch, from this the
+name batch normalization.
+
+!split
+===== Dropout =====
+
+It is a fairly simple algorithm: at every training step, every neuron
+(including the input neurons but excluding the output neurons) has a
+probability $p$ of being temporarily dropped out, meaning it will be
+entirely ignored during this training step, but it may be active
+during the next step.
+
+The hyperparameter $p$ is called the dropout rate, and it is typically
+set to 50%. After training, the neurons are not dropped anymore.  It
+is viewed as one of the most popular regularization techniques.
+
+!split
+===== Gradient Clipping =====
+
+A popular technique to lessen the exploding gradients problem is to
+simply clip the gradients during backpropagation so that they never
+exceed some threshold (this is mostly useful for recurrent neural
+networks).
+
+This technique is called Gradient Clipping.
+
+In general however, Batch
+Normalization is preferred.
+
+!split 
+===== A top-down perspective on Neural networks =====
+
+
+The first thing we would like to do is divide the data into two or
+three parts. A training set, a validation or dev (development) set,
+and a test set. The test set is the data on which we want to make
+predictions. The dev set is a subset of the training data we use to
+check how well we are doing out-of-sample, after training the model on
+the training dataset. We use the validation error as a proxy for the
+test error in order to make tweaks to our model. It is crucial that we
+do not use any of the test data to train the algorithm. This is a
+cardinal sin in ML. Then:
+
+o Estimate optimal error rate
+o Minimize underfitting (bias) on training data set.
+o Make sure you are not overfitting.
+
+
+
+!split
+===== More top-down perspectives =====
+
+If the validation and test sets are drawn from the same distributions,
+then a good performance on the validation set should lead to similarly
+good performance on the test set. 
+
+However, sometimes
+the training data and test data differ in subtle ways because, for
+example, they are collected using slightly different methods, or
+because it is cheaper to collect data in one way versus another. In
+this case, there can be a mismatch between the training and test
+data. This can lead to the neural network overfitting these small
+differences between the test and training sets, and a poor performance
+on the test set despite having a good performance on the validation
+set. To rectify this, Andrew Ng suggests making two validation or dev
+sets, one constructed from the training data and one constructed from
+the test data. The difference between the performance of the algorithm
+on these two validation sets quantifies the train-test mismatch. This
+can serve as another important diagnostic when using DNNs for
+supervised learning.
+
+!split
+===== Limitations of supervised learning with deep networks =====
+
+Like all statistical methods, supervised learning using neural
+networks has important limitations. This is especially important when
+one seeks to apply these methods, especially to physics problems. Like
+all tools, DNNs are not a universal solution. Often, the same or
+better performance on a task can be achieved by using a few
+hand-engineered features (or even a collection of random
+features). 
+
+
+!split
+===== Limitations of NNs =====
+
+Here we list some of the important limitations of supervised neural network based models. 
+
+
+
+* _Need labeled data_. All supervised learning methods, DNNs for supervised learning require labeled data. Often, labeled data is harder to acquire than unlabeled data (e.g. one must pay for human experts to label images).
+* _Supervised neural networks are extremely data intensive._ DNNs are data hungry. They perform best when data is plentiful. This is doubly so for supervised methods where the data must also be labeled. The utility of DNNs is extremely limited if data is hard to acquire or the datasets are small (hundreds to a few thousand samples). In this case, the performance of other methods that utilize hand-engineered features can exceed that of DNNs.
+
+
+!split
+===== Homogeneous data =====
+
+* _Homogeneous data._ Almost all DNNs deal with homogeneous data of one type. It is very hard to design architectures that mix and match data types (i.e.~some continuous variables, some discrete variables, some time series). In applications beyond images, video, and language, this is often what is required. In contrast, ensemble models like random forests or gradient-boosted trees have no difficulty handling mixed data types.
+
+!split
+===== More limitations =====
+
+
+* _Many problems are not about prediction._ In natural science we are often interested in learning something about the underlying distribution that generates the data. In this case, it is often difficult to cast these ideas in a supervised learning setting. While the problems are related, it is possible to make good predictions with a *wrong* model. The model might or might not be useful for understanding the underlying science.
+
+Some of these remarks are particular to DNNs, others are shared by all supervised learning methods. This motivates the use of unsupervised methods which in part circumvent these problems.
 
 
 
