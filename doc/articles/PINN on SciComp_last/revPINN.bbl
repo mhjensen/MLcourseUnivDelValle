@@ -1,0 +1,1378 @@
+\begin{thebibliography}{198}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{{#1}}
+\providecommand{\urlprefix}{URL }
+\providecommand{\doi}[1]{\url{https://doi.org/#1}}
+\providecommand{\eprint}[2][]{\url{#2}}
+ \bibcommenthead
+
+\bibitem[{Abreu and Florindo(2021)}]{Abr2021_StudyFeedforwardNeural_FloAF}
+Abreu E, Florindo JB (2021) A {Study} on a {Feedforward} {Neural} {Network} to
+  {Solve} {Partial} {Differential} {Equations} in {Hyperbolic}-{Transport}
+  {Problems}. In: Paszynski M, Kranzlmüller D, Krzhizhanovskaya VV, et~al
+  (eds) Computational {Science} – {ICCS} 2021. Springer International
+  Publishing, Cham, Lecture {Notes} in {Computer} {Science}, pp 398--411,
+  \doi{10.1007/978-3-030-77964-1_31}
+
+\bibitem[{Aldweesh et~al(2020)Aldweesh, Derhab, and
+  Emam}]{Ald2020_DeepLearningApproaches_DerADE}
+Aldweesh A, Derhab A, Emam AZ (2020) Deep learning approaches for anomaly-based
+  intrusion detection systems: A survey, taxonomy, and open issues.
+  Knowledge-Based Systems 189:105,124.
+  \doi{https://doi.org/10.1016/j.knosys.2019.105124},
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0950705119304897}
+
+\bibitem[{Alkhadhr et~al(2021)Alkhadhr, Liu, and
+  Almekkawy}]{Alk2021_ModelingForwardWave_LiuALA}
+Alkhadhr S, Liu X, Almekkawy M (2021) Modeling of the {Forward} {Wave}
+  {Propagation} {Using} {Physics}-{Informed} {Neural} {Networks}. In: 2021
+  {IEEE} {International} {Ultrasonics} {Symposium} ({IUS}), pp 1--4,
+  \doi{10.1109/IUS52206.2021.9593574}, iSSN: 1948-5727
+
+\bibitem[{Almajid and Abu-Al-Saud(2022)}]{Alm2022_PredictionPorousMedia_AbuAA}
+Almajid MM, Abu-Al-Saud MO (2022) Prediction of porous media fluid flow using
+  physics informed neural networks. Journal of Petroleum Science and
+  Engineering 208:109,205. \doi{10.1016/j.petrol.2021.109205},
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0920410521008597}
+
+\bibitem[{Alom et~al(2019)Alom, Taha, Yakopcic, Westberg, Sidike, Nasrin,
+  Hasan, Van~Essen, Awwal, and Asari}]{Alo2019_StateArtSurvey_TahATY}
+Alom MZ, Taha TM, Yakopcic C, et~al (2019) A state-of-the-art survey on deep
+  learning theory and architectures. Electronics 8(3).
+  \doi{10.3390/electronics8030292},
+  \urlprefix\url{https://www.mdpi.com/2079-9292/8/3/292}
+
+\bibitem[{Amini~Niaki et~al(2021)Amini~Niaki, Haghighat, Campbell, Poursartip,
+  and Vaziri}]{Ami2021_PhysicsInformedNeural_HagANHC}
+Amini~Niaki S, Haghighat E, Campbell T, et~al (2021) Physics-informed neural
+  network for modelling the thermochemical curing process of composite-tool
+  systems during manufacture. Computer Methods in Applied Mechanics and
+  Engineering 384:113,959. \doi{10.1016/j.cma.2021.113959},
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0045782521002966}
+
+\bibitem[{Araz et~al(2021)Araz, Criado, and
+  Spannowsky}]{Ara2021_ElvetNeuralNetwork_CriACS}
+Araz JY, Criado JC, Spannowsky M (2021) Elvet -- a neural network-based
+  differential equation and variational problem solver. arXiv:210314575
+  [hep-lat, physics:hep-ph, physics:hep-th, stat]
+  \urlprefix\url{http://arxiv.org/abs/2103.14575}, arXiv: 2103.14575
+
+\bibitem[{Arnold(2015)}]{Arn2015_StabilityConsistencyConvergence_Arn}
+Arnold DN (2015) Stability, {Consistency}, and {Convergence} of {Numerical}
+  {Discretizations}. Springer, Berlin, Heidelberg, p 1358--1364,
+  \doi{10.1007/978-3-540-70529-1_407},
+  \urlprefix\url{https://doi.org/10.1007/978-3-540-70529-1_407}
+
+\bibitem[{Arnold and King(2021)}]{Arn2021_StateModelingControl_KinAK}
+Arnold F, King R (2021) State–space modeling for control based on
+  physics-informed neural networks. Engineering Applications of Artificial
+  Intelligence 101:104,195. \doi{10.1016/j.engappai.2021.104195},
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0952197621000427}
+
+\bibitem[{Arthurs and King(2021)}]{Art2021_ActiveTrainingPhysics_KinAK}
+Arthurs CJ, King AP (2021) Active training of physics-informed neural networks
+  to aggregate and interpolate parametric solutions to the {Navier}-{Stokes}
+  equations. Journal of Computational Physics 438:110,364.
+  \doi{10.1016/j.jcp.2021.110364},
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S002199912100259X}
+
+\bibitem[{Arulkumaran et~al(2017)Arulkumaran, Deisenroth, Brundage, and
+  Bharath}]{Aru2017_DeepReinforcementLearning_DeiADBB}
+Arulkumaran K, Deisenroth MP, Brundage M, et~al (2017) Deep {Reinforcement}
+  {Learning}: {A} {Brief} {Survey}. IEEE Signal Processing Magazine
+  34(6):26--38. \doi{10.1109/MSP.2017.2743240}
+
+\bibitem[{Balu et~al(2021)Balu, Botelho, Khara, Rao, Sarkar, Hegde,
+  Krishnamurthy, Adavani, and
+  Ganapathysubramanian}]{Bal2021_DistributedMultigridNeural_BotBBK}
+Balu A, Botelho S, Khara B, et~al (2021) Distributed multigrid neural solvers
+  on megavoxel domains. In: Proceedings of the International Conference for
+  High Performance Computing, Networking, Storage and Analysis. Association for
+  Computing Machinery, New York, NY, USA, SC '21,
+  \doi{10.1145/3458817.3476218},
+  \urlprefix\url{https://doi.org/10.1145/3458817.3476218}
+
+\bibitem[{Bauer and Kohler(2019)}]{Bau2019_DeepLearningAs_KohBK}
+Bauer B, Kohler M (2019) On deep learning as a remedy for the curse of
+  dimensionality in nonparametric regression. The Annals of Statistics
+  47(4):2261--2285. \doi{10.1214/18-AOS1747},
+  \urlprefix\url{https://projecteuclid.org/journals/annals-of-statistics/volume-47/issue-4/On-deep-learning-as-a-remedy-for-the-curse-of/10.1214/18-AOS1747.full}
+
+\bibitem[{Belkin et~al(2019)Belkin, Hsu, Ma, and
+  Mandal}]{Bel2019_ReconcilingModernMachine_HsuBHMM}
+Belkin M, Hsu D, Ma S, et~al (2019) Reconciling modern machine-learning
+  practice and the classical bias–variance trade-off. Proceedings of the
+  National Academy of Sciences 116(32):15,849--15,854.
+  \doi{10.1073/pnas.1903070116},
+  \urlprefix\url{https://www.pnas.org/doi/10.1073/pnas.1903070116}
+
+\bibitem[{Bellman(1966)}]{bellman1966dynamic}
+Bellman R (1966) Dynamic programming. Science 153(3731):34--37
+
+\bibitem[{Berg and Nyström(2018)}]{Ber2018_UnifiedDeepArtificial_NysBN}
+Berg J, Nyström K (2018) A unified deep artificial neural network approach to
+  partial differential equations in complex geometries. Neurocomputing
+  317:28--41. \doi{10.1016/j.neucom.2018.06.056},
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S092523121830794X}
+
+\bibitem[{Berman et~al(2019)Berman, Buczak, Chavis, and
+  Corbett}]{Ber2019_SurveyDeepLearning_BucBBCC}
+Berman DS, Buczak AL, Chavis JS, et~al (2019) A survey of deep learning methods
+  for cyber security. Information 10(4). \doi{10.3390/info10040122},
+  \urlprefix\url{https://www.mdpi.com/2078-2489/10/4/122}
+
+\bibitem[{Blechschmidt and Ernst(2021)}]{Ble2021_ThreeWaysSolve_ErnBE}
+Blechschmidt J, Ernst OG (2021) Three ways to solve partial differential
+  equations with neural networks — {A} review. GAMM-Mitteilungen
+  44(2):e202100,006. \doi{10.1002/gamm.202100006},
+  \urlprefix\url{https://onlinelibrary.wiley.com/doi/abs/10.1002/gamm.202100006}
+
+\bibitem[{Cai et~al(2021{\natexlab{a}})Cai, Mao, Wang, Yin, and
+  Karniadakis}]{Cai2021_PhysicsInformedNeural_MaoCMW}
+Cai S, Mao Z, Wang Z, et~al (2021{\natexlab{a}}) Physics-informed neural
+  networks ({PINNs}) for fluid mechanics: a review. Acta Mechanica Sinica
+  37(12):1727--1738. \doi{10.1007/s10409-021-01148-1},
+  \urlprefix\url{https://doi.org/10.1007/s10409-021-01148-1}
+
+\bibitem[{Cai et~al(2021{\natexlab{b}})Cai, Wang, Lu, Zaki, and
+  Karniadakis}]{Cai2021_DeepmmnetInferringElectroconvection_WanCWL}
+Cai S, Wang Z, Lu L, et~al (2021{\natexlab{b}}) {DeepM}\&{Mnet}: {Inferring}
+  the electroconvection multiphysics fields based on operator approximation by
+  neural networks. Journal of Computational Physics 436:110,296.
+  \doi{10.1016/j.jcp.2021.110296},
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0021999121001911}
+
+\bibitem[{Cai et~al(2021{\natexlab{c}})Cai, Wang, Wang, Perdikaris, and
+  Karniadakis}]{Cai2021_PhysicsInformedNeural_WanCWW}
+Cai S, Wang Z, Wang S, et~al (2021{\natexlab{c}}) Physics-{Informed} {Neural}
+  {Networks} for {Heat} {Transfer} {Problems}. Journal of Heat Transfer 143(6).
+  \doi{10.1115/1.4050542}, \urlprefix\url{https://doi.org/10.1115/1.4050542}
+
+\bibitem[{Calin(2020{\natexlab{a}})}]{Cal2020_ConvolutionalNetworks_Cal}
+Calin O (2020{\natexlab{a}}) Convolutional Networks, Springer International
+  Publishing, Cham, pp 517--542. \doi{10.1007/978-3-030-36721-3_16},
+  \urlprefix\url{https://doi.org/10.1007/978-3-030-36721-3_16}
+
+\bibitem[{Calin(2020{\natexlab{b}})}]{Cal2020_UniversalApproximators_Cal}
+Calin O (2020{\natexlab{b}}) Universal {Approximators}. Springer {Series} in
+  the {Data} {Sciences}, Springer International Publishing, Cham, p 251--284,
+  \doi{10.1007/978-3-030-36721-3_9},
+  \urlprefix\url{https://doi.org/10.1007/978-3-030-36721-3_9}
+
+\bibitem[{Caterini and
+  Chang(2018{\natexlab{a}})}]{Cat2018_GenericRepresentationNeural_ChaCC}
+Caterini AL, Chang DE (2018{\natexlab{a}}) Generic {Representation} of {Neural}
+  {Networks}. In: Caterini AL, Chang DE (eds) Deep Neural Networks in a
+  Mathematical Framework. {SpringerBriefs} in {Computer} {Science}, Springer
+  International Publishing, Cham, p 23--34, \doi{10.1007/978-3-319-75304-1_3},
+  \urlprefix\url{https://doi.org/10.1007/978-3-319-75304-1_3}
+
+\bibitem[{Caterini and
+  Chang(2018{\natexlab{b}})}]{Cat2018_SpecificNetworkDescriptions_ChaCC}
+Caterini AL, Chang DE (2018{\natexlab{b}}) Specific {Network} {Descriptions}.
+  In: Caterini AL, Chang DE (eds) Deep Neural Networks in a Mathematical
+  Framework. {SpringerBriefs} in {Computer} {Science}, Springer International
+  Publishing, Cham, p 35--58, \doi{10.1007/978-3-319-75304-1_4},
+  \urlprefix\url{https://doi.org/10.1007/978-3-319-75304-1_4}
+
+\bibitem[{Cavanagh et~al(2021)Cavanagh, Mosbach, Scalliet, Lind, and
+  Endres}]{Cav2021_PhysicsInformedDeep_MosCMS}
+Cavanagh H, Mosbach A, Scalliet G, et~al (2021) Physics-informed deep learning
+  characterizes morphodynamics of asian soybean rust disease. Nature
+  Communications 12(1):6424. \doi{10.1038/s41467-021-26577-1},
+  \urlprefix\url{https://doi.org/10.1038/s41467-021-26577-1}
+
+\bibitem[{Chen et~al(2020{\natexlab{a}})Chen, Sondak, Protopapas, Mattheakis,
+  Liu, Agarwal, and Di~Giovanni}]{chen2020neurodiffeq}
+Chen F, Sondak D, Protopapas P, et~al (2020{\natexlab{a}}) Neurodiffeq: A
+  python package for solving differential equations with neural networks.
+  Journal of Open Source Software 5(46):1931
+
+\bibitem[{Chen et~al(2018)Chen, Engkvist, Wang, Olivecrona, and
+  Blaschke}]{Che2018_RiseDeepLearning_EngCEW}
+Chen H, Engkvist O, Wang Y, et~al (2018) The rise of deep learning in drug
+  discovery. Drug Discovery Today 23(6):1241--1250.
+  \doi{https://doi.org/10.1016/j.drudis.2018.01.039},
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S1359644617303598}
+
+\bibitem[{Chen et~al(2020{\natexlab{b}})Chen, Lu, Karniadakis, Negro, Negro,
+  Negro, and Negro}]{Che2020_PhysicsInformedNeural_LuCLK}
+Chen Y, Lu L, Karniadakis GE, et~al (2020{\natexlab{b}}) Physics-informed
+  neural networks for inverse problems in nano-optics and metamaterials. Optics
+  Express 28(8):11,618--11,633. \doi{10.1364/OE.384875},
+  \urlprefix\url{https://www.osapublishing.org/oe/abstract.cfm?uri=oe-28-8-11618}
+
+\bibitem[{Cheng and Zhang(2021)}]{Che2021_DeepLearningMethod_ZhaCZ}
+Cheng C, Zhang GT (2021) Deep {Learning} {Method} {Based} on {Physics}
+  {Informed} {Neural} {Network} with {Resnet} {Block} for {Solving} {Fluid}
+  {Flow} {Problems}. Water 13(4):423. \doi{10.3390/w13040423},
+  \urlprefix\url{https://www.mdpi.com/2073-4441/13/4/423}
+
+\bibitem[{Cheung and See(2021)}]{Che2021_RecentAdvanceMachine_SeeCS}
+Cheung KC, See S (2021) Recent advance in machine learning for partial
+  differential equation. CCF Transactions on High Performance Computing
+  3(3):298--310. \doi{10.1007/s42514-021-00076-7},
+  \urlprefix\url{https://doi.org/10.1007/s42514-021-00076-7}
+
+\bibitem[{Chiu et~al(2022)Chiu, Wong, Ooi, Dao, and
+  Ong}]{Chi2022_CanPinnFast_WonCWO}
+Chiu PH, Wong JC, Ooi C, et~al (2022) {CAN}-{PINN}: {A} fast physics-informed
+  neural network based on coupled-automatic–numerical differentiation method.
+  Computer Methods in Applied Mechanics and Engineering 395:114,909.
+  \doi{10.1016/j.cma.2022.114909},
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0045782522001906}
+
+\bibitem[{Cybenko(1989)}]{Cyb1989_ApproximationSuperpositionsSigmoidal_Cyb}
+Cybenko G (1989) Approximation by superpositions of a sigmoidal function.
+  Mathematics of Control, Signals and Systems 2(4):303--314.
+  \doi{10.1007/BF02551274}, \urlprefix\url{https://doi.org/10.1007/BF02551274}
+
+\bibitem[{Dargan et~al(2020)Dargan, Kumar, Ayyagari, and
+  Kumar}]{Dar2020_SurveyDeepLearning_KumDKAK}
+Dargan S, Kumar M, Ayyagari MR, et~al (2020) A {Survey} of {Deep} {Learning}
+  and {Its} {Applications}: {A} {New} {Paradigm} to {Machine} {Learning}.
+  Archives of Computational Methods in Engineering 27(4):1071--1092.
+  \doi{10.1007/s11831-019-09344-w},
+  \urlprefix\url{https://doi.org/10.1007/s11831-019-09344-w}
+
+\bibitem[{De~Ryck and Mishra(2021)}]{De2021_ErrorAnalysisPhysics_MisDRM}
+De~Ryck T, Mishra S (2021) Error analysis for physics informed neural networks
+  ({PINNs}) approximating {Kolmogorov} {PDEs}. arXiv:210614473 [cs, math]
+  \urlprefix\url{http://arxiv.org/abs/2106.14473}, arXiv: 2106.14473
+
+\bibitem[{De~Ryck et~al(2021)De~Ryck, Lanthaler, and
+  Mishra}]{De2021_ApproximationFunctionsTanh_LanDRLM}
+De~Ryck T, Lanthaler S, Mishra S (2021) On the approximation of functions by
+  tanh neural networks. Neural Networks 143:732--750.
+  \doi{10.1016/j.neunet.2021.08.015},
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0893608021003208}
+
+\bibitem[{De~Ryck et~al(2022)De~Ryck, Jagtap, and
+  Mishra}]{De2022_ErrorEstimatesPhysics_JagDRJM}
+De~Ryck T, Jagtap AD, Mishra S (2022) Error estimates for physics informed
+  neural networks approximating the {Navier}-{Stokes} equations.
+  arXiv:220309346 [cs, math] \urlprefix\url{http://arxiv.org/abs/2203.09346},
+  arXiv: 2203.09346
+
+\bibitem[{Dissanayake and Phan-Thien(1994)}]{Dis1994_NeuralNetworkBased_PhaDP}
+Dissanayake MWMG, Phan-Thien N (1994) Neural-network-based approximations for
+  solving partial differential equations. Communications in Numerical Methods
+  in Engineering 10(3):195--201. \doi{10.1002/cnm.1640100303},
+  \urlprefix\url{https://onlinelibrary.wiley.com/doi/abs/10.1002/cnm.1640100303}
+
+\bibitem[{Driscoll et~al(2014)Driscoll, Hale, and Trefethen}]{Driscoll2014}
+Driscoll TA, Hale N, Trefethen LN (2014) Chebfun Guide. Pafnuty Publications,
+  \urlprefix\url{http://www.chebfun.org/docs/guide/}
+
+\bibitem[{Dwivedi and Srinivasan(2020)}]{Dwi2020_PhysicsInformedExtreme_SriDS}
+Dwivedi V, Srinivasan B (2020) Physics {Informed} {Extreme} {Learning}
+  {Machine} ({PIELM})–{A} rapid method for the numerical solution of partial
+  differential equations. Neurocomputing 391:96--118.
+  \doi{10.1016/j.neucom.2019.12.099},
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0925231219318144}
+
+\bibitem[{E and Yu(2018)}]{Wei2018_DeepRitzMethod_YuWY}
+E W, Yu B (2018) The {Deep} {Ritz} {Method}: {A} {Deep} {Learning}-{Based}
+  {Numerical} {Algorithm} for {Solving} {Variational} {Problems}.
+  Communications in Mathematics and Statistics 6(1):1--12.
+  \doi{10.1007/s40304-018-0127-z},
+  \urlprefix\url{https://doi.org/10.1007/s40304-018-0127-z}
+
+\bibitem[{Elbrächter et~al(2021)Elbrächter, Perekrestenko, Grohs, and
+  Bölcskei}]{Elb2021_DeepNeuralNetwork_PerEPGB}
+Elbrächter D, Perekrestenko D, Grohs P, et~al (2021) Deep {Neural} {Network}
+  {Approximation} {Theory}. IEEE Transactions on Information Theory
+  67(5):2581--2623. \doi{10.1109/TIT.2021.3062161}
+
+\bibitem[{Fang(2021)}]{Fan2021_HighEfficientHybrid_Fan}
+Fang Z (2021) A {High}-{Efficient} {Hybrid} {Physics}-{Informed} {Neural}
+  {Networks} {Based} on {Convolutional} {Neural} {Network}. IEEE Transactions
+  on Neural Networks and Learning Systems pp 1--13.
+  \doi{10.1109/TNNLS.2021.3070878}
+
+\bibitem[{Fang and
+  Zhan(2020{\natexlab{a}})}]{Fan2020_DeepPhysicalInformed_ZhaFZ}
+Fang Z, Zhan J (2020{\natexlab{a}}) Deep {Physical} {Informed} {Neural}
+  {Networks} for {Metamaterial} {Design}. IEEE Access 8:24,506--24,513.
+  \doi{10.1109/ACCESS.2019.2963375}
+
+\bibitem[{Fang and
+  Zhan(2020{\natexlab{b}})}]{Fan2020_PhysicsInformedNeural_ZhaFZ}
+Fang Z, Zhan J (2020{\natexlab{b}}) A {Physics}-{Informed} {Neural} {Network}
+  {Framework} for {PDEs} on {3D} {Surfaces}: {Time} {Independent} {Problems}.
+  IEEE Access 8:26,328--26,335. \doi{10.1109/ACCESS.2019.2963390}
+
+\bibitem[{Fuks and Tchelepi(2020)}]{Fuk2020_LimitationsPhysicsInformed_TchFT}
+Fuks O, Tchelepi HA (2020) {LIMITATIONS} {OF} {PHYSICS} {INFORMED} {MACHINE}
+  {LEARNING} {FOR} {NONLINEAR} {TWO}-{PHASE} {TRANSPORT} {IN} {POROUS} {MEDIA}.
+  Journal of Machine Learning for Modeling and Computing 1(1).
+  \doi{10.1615/.2020033905},
+  \urlprefix\url{https://www.dl.begellhouse.com/journals/558048804a15188a,583c4e56625ba94e,415f83b5707fde65.html}
+
+\bibitem[{Gao et~al(2021)Gao, Sun, and
+  Wang}]{Gao2021_PhygeonetPhysicsInformed_SunGSW}
+Gao H, Sun L, Wang JX (2021) {PhyGeoNet}: {Physics}-informed geometry-adaptive
+  convolutional neural networks for solving parameterized steady-state {PDEs}
+  on irregular domain. Journal of Computational Physics 428:110,079.
+  \doi{10.1016/j.jcp.2020.110079},
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0021999120308536}
+
+\bibitem[{Gardner et~al(2018)Gardner, Pleiss, Bindel, Weinberger, and
+  Wilson}]{gardner2018gpytorch}
+Gardner JR, Pleiss G, Bindel D, et~al (2018) Gpytorch: Blackbox matrix-matrix
+  gaussian process inference with gpu acceleration. In: Advances in Neural
+  Information Processing Systems
+
+\bibitem[{Garnelo and Shanahan(2019)}]{Gar2019_ReconcilingDeepLearning_ShaGS}
+Garnelo M, Shanahan M (2019) Reconciling deep learning with symbolic artificial
+  intelligence: representing objects and relations. Current Opinion in
+  Behavioral Sciences 29:17--23. \doi{10.1016/j.cobeha.2018.12.010},
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S2352154618301943}
+
+\bibitem[{Geneva and Zabaras(2020)}]{Gen2020_ModelingDynamicsPde_ZabGZ}
+Geneva N, Zabaras N (2020) Modeling the dynamics of pde systems with
+  physics-constrained deep auto-regressive networks. Journal of Computational
+  Physics 403:109,056. \doi{https://doi.org/10.1016/j.jcp.2019.109056},
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0021999119307612}
+
+\bibitem[{Goswami et~al(2020)Goswami, Anitescu, Chakraborty, and
+  Rabczuk}]{Gos2020_TransferLearningEnhanced_AniGACR}
+Goswami S, Anitescu C, Chakraborty S, et~al (2020) Transfer learning enhanced
+  physics informed neural network for phase-field modeling of fracture.
+  Theoretical and Applied Fracture Mechanics 106:102,447.
+  \doi{https://doi.org/10.1016/j.tafmec.2019.102447},
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S016784421930357X}
+
+\bibitem[{Grandits et~al(2021)Grandits, Pezzuto, Costabal, Perdikaris, Pock,
+  Plank, and Krause}]{Gra2021_LearningAtrialFiber_PezGPC}
+Grandits T, Pezzuto S, Costabal FS, et~al (2021) Learning {Atrial} {Fiber}
+  {Orientations} and {Conductivity} {Tensors} from {Intracardiac} {Maps}
+  {Using} {Physics}-{Informed} {Neural} {Networks}. In: Ennis DB, Perotti LE,
+  Wang VY (eds) Functional {Imaging} and {Modeling} of the {Heart}. Springer
+  International Publishing, Cham, Lecture {Notes} in {Computer} {Science}, pp
+  650--658, \doi{10.1007/978-3-030-78710-3_62}
+
+\bibitem[{Grubišić et~al(2021)Grubišić, Hajba, and
+  Lacmanović}]{Gru2021_DeepNeuralNetwork_HajGHL}
+Grubišić L, Hajba M, Lacmanović D (2021) Deep {Neural} {Network} {Model} for
+  {Approximating} {Eigenmodes} {Localized} by a {Confining} {Potential}.
+  Entropy 23(1):95. \doi{10.3390/e23010095},
+  \urlprefix\url{https://www.mdpi.com/1099-4300/23/1/95}
+
+\bibitem[{Haghighat and
+  Juanes(2021)}]{Hag2021_SciannKerastensorflowWrapper_JuaHJ}
+Haghighat E, Juanes R (2021) {SciANN}: {A} {Keras}/{Tensorflow} wrapper for
+  scientific computations and physics-informed deep learning using artificial
+  neural networks. Computer Methods in Applied Mechanics and Engineering
+  373:113,552. \doi{10.1016/j.cma.2020.113552},
+  \urlprefix\url{http://arxiv.org/abs/2005.08803}, arXiv: 2005.08803
+
+\bibitem[{Haghighat et~al(2021{\natexlab{a}})Haghighat, Bekar, Madenci, and
+  Juanes}]{Hag2021_NonlocalPhysicsInformed_BekHBMJ}
+Haghighat E, Bekar AC, Madenci E, et~al (2021{\natexlab{a}}) A nonlocal
+  physics-informed deep learning framework using the peridynamic differential
+  operator. Computer Methods in Applied Mechanics and Engineering 385:114,012.
+  \doi{10.1016/j.cma.2021.114012},
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0045782521003431}
+
+\bibitem[{Haghighat et~al(2021{\natexlab{b}})Haghighat, Raissi, Moure, Gomez,
+  and Juanes}]{Hag2021_PhysicsInformedDeep_RaiHRM}
+Haghighat E, Raissi M, Moure A, et~al (2021{\natexlab{b}}) A physics-informed
+  deep learning framework for inversion and surrogate modeling in solid
+  mechanics. Computer Methods in Applied Mechanics and Engineering 379:113,741.
+  \doi{10.1016/j.cma.2021.113741},
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0045782521000773}
+
+\bibitem[{Haitsiukevich and Ilin(2022)}]{Hai2022_ImprovedTrainingPhysics_IliHI}
+Haitsiukevich K, Ilin A (2022) Improved {Training} of {Physics}-{Informed}
+  {Neural} {Networks} with {Model} {Ensembles}. arXiv:220405108 [cs, stat]
+  \urlprefix\url{http://arxiv.org/abs/2204.05108}, arXiv: 2204.05108
+
+\bibitem[{He and Tartakovsky(2021)}]{He2021_PhysicsInformedNeural_TarHT}
+He Q, Tartakovsky AM (2021) Physics-informed neural network method for forward
+  and backward advection-dispersion equations. Water Resources Research
+  57(7):e2020WR029,479. \doi{10.1029/2020WR029479},
+  \urlprefix\url{https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2020WR029479},
+  e2020WR029479 2020WR029479
+
+\bibitem[{He et~al(2020)He, Barajas-Solano, Tartakovsky, and
+  Tartakovsky}]{He2020_PhysicsInformedNeural_BarHBTT}
+He Q, Barajas-Solano D, Tartakovsky G, et~al (2020) Physics-informed neural
+  networks for multiphysics data assimilation with application to subsurface
+  transport. Advances in Water Resources 141:103,610.
+  \doi{10.1016/j.advwatres.2020.103610},
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0309170819311649}
+
+\bibitem[{Hennigh et~al(2021)Hennigh, Narasimhan, Nabian, Subramaniam,
+  Tangsali, Fang, Rietmann, Byeon, and
+  Choudhry}]{Hen2021_NvidiaSimnetAi_NarHNN}
+Hennigh O, Narasimhan S, Nabian MA, et~al (2021) {NVIDIA} {SimNet}™: {An}
+  {AI}-{Accelerated} {Multi}-{Physics} {Simulation} {Framework}. In: Paszynski
+  M, Kranzlmüller D, Krzhizhanovskaya VV, et~al (eds) Computational {Science}
+  – {ICCS} 2021. Springer International Publishing, Cham, Lecture {Notes} in
+  {Computer} {Science}, pp 447--461, \doi{10.1007/978-3-030-77977-1_36}
+
+\bibitem[{Hillebrecht and Unger(2022)}]{Hil2022_CertifiedMachineLearning_UngHU}
+Hillebrecht B, Unger B (2022) Certified machine learning: {A} posteriori error
+  estimation for physics-informed neural networks. Tech. rep.,
+  \doi{10.48550/arXiv.2203.17055},
+  \urlprefix\url{http://arxiv.org/abs/2203.17055}, arXiv:2203.17055 [cs, math]
+  type: article
+
+\bibitem[{Hinze et~al(2008)Hinze, Pinnau, Ulbrich, and
+  Ulbrich}]{hinze2008optimization}
+Hinze M, Pinnau R, Ulbrich M, et~al (2008) Optimization with PDE constraints,
+  vol~23. Springer Science \& Business Media
+
+\bibitem[{Hoffer et~al(2021)Hoffer, Geiger, Ofner, and
+  Kern}]{Hof2021_MeshFreeSurrogate_GeiHGOK}
+Hoffer JG, Geiger BC, Ofner P, et~al (2021) Mesh-{Free} {Surrogate} {Models}
+  for {Structural} {Mechanic} {FEM} {Simulation}: {A} {Comparative} {Study} of
+  {Approaches}. Applied Sciences 11(20):9411. \doi{10.3390/app11209411},
+  \urlprefix\url{https://www.mdpi.com/2076-3417/11/20/9411}
+
+\bibitem[{Hornik et~al(1989)Hornik, Stinchcombe, and
+  White}]{Hor1989_MultilayerFeedforwardNetworks_StiHSW}
+Hornik K, Stinchcombe M, White H (1989) Multilayer feedforward networks are
+  universal approximators. Neural Networks 2(5):359--366.
+  \doi{10.1016/0893-6080(89)90020-8},
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/0893608089900208}
+
+\bibitem[{Huang et~al(2011)Huang, Wang, and
+  Lan}]{Hua2011_ExtremeLearningMachines_WanHWL}
+Huang GB, Wang DH, Lan Y (2011) Extreme learning machines: a survey.
+  International Journal of Machine Learning and Cybernetics 2(2):107--122.
+  \doi{10.1007/s13042-011-0019-y},
+  \urlprefix\url{https://doi.org/10.1007/s13042-011-0019-y}
+
+\bibitem[{Huang et~al(2021)Huang, Liu, Shi, Wang, Yang, Li, Weng, Wang, Chu,
+  Zhou, Yu, Hua, Chen, and Dong}]{Hua2021_SolvingPartialDifferential_LiuHLS}
+Huang X, Liu H, Shi B, et~al (2021) Solving {Partial} {Differential}
+  {Equations} with {Point} {Source} {Based} on {Physics}-{Informed} {Neural}
+  {Networks}. arXiv:211101394 [physics]
+  \urlprefix\url{http://arxiv.org/abs/2111.01394}, arXiv: 2111.01394
+
+\bibitem[{Irrgang et~al(2021)Irrgang, Boers, Sonnewald, Barnes, Kadow, Staneva,
+  and Saynisch-Wagner}]{Irr2021_TowardsNeuralEarth_BoeIBS}
+Irrgang C, Boers N, Sonnewald M, et~al (2021) Towards neural {Earth} system
+  modelling by integrating artificial intelligence in {Earth} system science.
+  Nature Machine Intelligence 3(8):667--674. \doi{10.1038/s42256-021-00374-3},
+  \urlprefix\url{https://www.nature.com/articles/s42256-021-00374-3}
+
+\bibitem[{Islam et~al(2021)Islam, Thakur, Mojumder, and
+  Hasan}]{Isl2021_ExtractionMaterialProperties_ThaITMH}
+Islam M, Thakur MSH, Mojumder S, et~al (2021) Extraction of material properties
+  through multi-fidelity deep learning from molecular dynamics simulation.
+  Computational Materials Science 188:110,187.
+  \doi{10.1016/j.commatsci.2020.110187},
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0927025620306789}
+
+\bibitem[{Jagtap et~al(2020{\natexlab{a}})Jagtap, Kawaguchi, and
+  Karniadakis}]{Jag2020_AdaptiveActivationFunctions_KawJKK}
+Jagtap AD, Kawaguchi K, Karniadakis GE (2020{\natexlab{a}}) Adaptive activation
+  functions accelerate convergence in deep and physics-informed neural
+  networks. Journal of Computational Physics 404:109,136.
+  \doi{10.1016/j.jcp.2019.109136},
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0021999119308411}
+
+\bibitem[{Jagtap et~al(2020{\natexlab{b}})Jagtap, Kharazmi, and
+  Karniadakis}]{Jag2020_ConservativePhysicsInformed_KhaJKK}
+Jagtap AD, Kharazmi E, Karniadakis GE (2020{\natexlab{b}}) Conservative
+  physics-informed neural networks on discrete domains for conservation laws:
+  {Applications} to forward and inverse problems. Computer Methods in Applied
+  Mechanics and Engineering 365:113,028. \doi{10.1016/j.cma.2020.113028},
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0045782520302127}
+
+\bibitem[{Jamali et~al(2021)Jamali, Haghighat, Ignjatovic, Leitão, and
+  Deletic}]{Jam2021_MachineLearningAccelerating_HagJHI}
+Jamali B, Haghighat E, Ignjatovic A, et~al (2021) Machine learning for
+  accelerating {2D} flood models: {Potential} and challenges. Hydrological
+  Processes 35(4):e14,064. \doi{10.1002/hyp.14064},
+  \urlprefix\url{https://onlinelibrary.wiley.com/doi/abs/10.1002/hyp.14064}
+
+\bibitem[{Jin et~al(2021)Jin, Cai, Li, and
+  Karniadakis}]{Jin2021_NsfnetsNavierStokes_CaiJCLK}
+Jin X, Cai S, Li H, et~al (2021) {NSFnets} ({Navier}-{Stokes} flow nets):
+  {Physics}-informed neural networks for the incompressible {Navier}-{Stokes}
+  equations. Journal of Computational Physics 426:109,951.
+  \doi{10.1016/j.jcp.2020.109951},
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0021999120307257}
+
+\bibitem[{Karniadakis et~al(2021)Karniadakis, Kevrekidis, Lu, Perdikaris, Wang,
+  and Yang}]{Kar2021_PhysicsInformedMachine_KevKKL}
+Karniadakis GE, Kevrekidis IG, Lu L, et~al (2021) Physics-informed machine
+  learning. Nature Reviews Physics 3(6):422--440.
+  \doi{10.1038/s42254-021-00314-5},
+  \urlprefix\url{https://www.nature.com/articles/s42254-021-00314-5}
+
+\bibitem[{Kashinath et~al(2021)Kashinath, Mustafa, Albert, Wu, Jiang,
+  Esmaeilzadeh, Azizzadenesheli, Wang, Chattopadhyay, Singh, Manepalli,
+  Chirila, Yu, Walters, White, Xiao, Tchelepi, Marcus, Anandkumar, Hassanzadeh,
+  and Prabhat}]{Kas2021_PhysicsInformedMachine_MusKMA}
+Kashinath K, Mustafa M, Albert A, et~al (2021) Physics-informed machine
+  learning: case studies for weather and climate modelling. Philosophical
+  Transactions of the Royal Society A: Mathematical, Physical and Engineering
+  Sciences 379(2194):20200,093. \doi{10.1098/rsta.2020.0093},
+  \urlprefix\url{https://royalsocietypublishing.org/doi/full/10.1098/rsta.2020.0093}
+
+\bibitem[{Kharazmi et~al(2019)Kharazmi, Zhang, and
+  Karniadakis}]{Kha2019_VariationalPhysicsInformed_ZhaKZK}
+Kharazmi E, Zhang Z, Karniadakis GE (2019) Variational {Physics}-{Informed}
+  {Neural} {Networks} {For} {Solving} {Partial} {Differential} {Equations}.
+  arXiv:191200873 [physics, stat]
+  \urlprefix\url{http://arxiv.org/abs/1912.00873}, arXiv: 1912.00873
+
+\bibitem[{Kharazmi et~al(2021{\natexlab{a}})Kharazmi, Cai, Zheng, Zhang, Lin,
+  and Karniadakis}]{Kha2021_IdentifiabilityPredictabilityInteger_CaiKCZ}
+Kharazmi E, Cai M, Zheng X, et~al (2021{\natexlab{a}}) Identifiability and
+  predictability of integer- and fractional-order epidemiological models using
+  physics-informed neural networks. Nature Computational Science
+  1(11):744--753. \doi{10.1038/s43588-021-00158-0},
+  \urlprefix\url{https://doi.org/10.1038/s43588-021-00158-0}
+
+\bibitem[{Kharazmi et~al(2021{\natexlab{b}})Kharazmi, Zhang, and
+  Karniadakis}]{Kha2021_HpVpinnsVariational_ZhaKZK}
+Kharazmi E, Zhang Z, Karniadakis GEM (2021{\natexlab{b}}) hp-{VPINNs}:
+  {Variational} physics-informed neural networks with domain decomposition.
+  Computer Methods in Applied Mechanics and Engineering 374:113,547.
+  \doi{10.1016/j.cma.2020.113547},
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0045782520307325}
+
+\bibitem[{Kim et~al(2021{\natexlab{a}})Kim, Lee, Lee, Jhin, and
+  Park}]{Kim2021_DpmNovelTraining_LeeKLL}
+Kim J, Lee K, Lee D, et~al (2021{\natexlab{a}}) {DPM}: {A} {Novel} {Training}
+  {Method} for {Physics}-{Informed} {Neural} {Networks} in {Extrapolation}.
+  Proceedings of the AAAI Conference on Artificial Intelligence
+  35(9):8146--8154.
+  \urlprefix\url{https://ojs.aaai.org/index.php/AAAI/article/view/16992}
+
+\bibitem[{Kim et~al(2021{\natexlab{b}})Kim, Kim, Lee, and
+  Lee}]{Kim2021_KnowledgeIntegrationDeep_KimKKLL}
+Kim SW, Kim I, Lee J, et~al (2021{\natexlab{b}}) Knowledge {Integration} into
+  deep learning in dynamical systems: an overview and taxonomy. Journal of
+  Mechanical Science and Technology 35(4):1331--1342.
+  \doi{10.1007/s12206-021-0342-5},
+  \urlprefix\url{https://doi.org/10.1007/s12206-021-0342-5}
+
+\bibitem[{Kissas et~al(2020)Kissas, Yang, Hwuang, Witschey, Detre, and
+  Perdikaris}]{Kis2020_MachineLearningCardiovascular_YanKYH}
+Kissas G, Yang Y, Hwuang E, et~al (2020) Machine learning in cardiovascular
+  flows modeling: {Predicting} arterial blood pressure from non-invasive {4D}
+  flow {MRI} data using physics-informed neural networks. Computer Methods in
+  Applied Mechanics and Engineering 358:112,623.
+  \doi{10.1016/j.cma.2019.112623},
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0045782519305055}
+
+\bibitem[{Kollmannsberger et~al(2021)Kollmannsberger, D’Angella, Jokeit, and
+  Herrmann}]{Kol2021_PhysicsInformedNeural_DAKDJH}
+Kollmannsberger S, D’Angella D, Jokeit M, et~al (2021) Physics-{Informed}
+  {Neural} {Networks}. In: Kollmannsberger S, D'Angella D, Jokeit M, et~al
+  (eds) Deep Learning in Computational Mechanics. Studies in {Computational}
+  {Intelligence}, Springer International Publishing, Cham, p 55--84,
+  \doi{10.1007/978-3-030-76587-3_5},
+  \urlprefix\url{https://doi.org/10.1007/978-3-030-76587-3_5}
+
+\bibitem[{Kondor and
+  Trivedi(2018)}]{Kon2018_GeneralizationEquivarianceConvolution_TriKT}
+Kondor R, Trivedi S (2018) On the {Generalization} of {Equivariance} and
+  {Convolution} in {Neural} {Networks} to the {Action} of {Compact} {Groups}.
+  In: Dy J, Krause A (eds) Proceedings of the 35th International Conference on
+  Machine Learning, Proceedings of Machine Learning Research, vol~80. PMLR, pp
+  2747--2755, \urlprefix\url{https://proceedings.mlr.press/v80/kondor18a.html}
+
+\bibitem[{Koryagin et~al(2019)Koryagin, Khudorozkov, and
+  Tsimfer}]{Kor2019_PydensPythonFramework_KhuKKT}
+Koryagin A, Khudorozkov R, Tsimfer S (2019) {PyDEns}: a {Python} {Framework}
+  for {Solving} {Differential} {Equations} with {Neural} {Networks}.
+  arXiv:190911544 [cs, stat] \urlprefix\url{http://arxiv.org/abs/1909.11544},
+  arXiv: 1909.11544
+
+\bibitem[{Kovacs et~al(2022)Kovacs, Exl, Kornell, Fischbacher, Hovorka,
+  Gusenbauer, Breth, Oezelt, Yano, Sakuma, Kinoshita, Shoji, Kato, and
+  Schrefl}]{Kov2022_ConditionalPhysicsInformed_ExlKEK}
+Kovacs A, Exl L, Kornell A, et~al (2022) Conditional physics informed neural
+  networks. Communications in Nonlinear Science and Numerical Simulation
+  104:106,041. \doi{10.1016/j.cnsns.2021.106041},
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S1007570421003531}
+
+\bibitem[{Krishnapriyan et~al(2021)Krishnapriyan, Gholami, Zhe, Kirby, and
+  Mahoney}]{Kri2021_CharacterizingPossibleFailure_GhoKGZ}
+Krishnapriyan A, Gholami A, Zhe S, et~al (2021) Characterizing possible failure
+  modes in physics-informed neural networks. In: Ranzato M, Beygelzimer A,
+  Dauphin Y, et~al (eds) Advances in Neural Information Processing Systems,
+  vol~34. Curran Associates, Inc., pp 26,548--26,560,
+  \urlprefix\url{https://proceedings.neurips.cc/paper/2021/file/df438e5206f31600e6ae4af72f2725f1-Paper.pdf}
+
+\bibitem[{Kumar and Yadav(2011)}]{Kum2011_MultilayerPerceptronsRadial_YadKY}
+Kumar M, Yadav N (2011) Multilayer perceptrons and radial basis function neural
+  network methods for the solution of differential equations: {A} survey.
+  Computers \& Mathematics with Applications 62(10):3796--3811.
+  \doi{10.1016/j.camwa.2011.09.028},
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0898122111007966}
+
+\bibitem[{Kutyniok(2022)}]{Kut2022_MathematicsArtificialIntelligence_Kut}
+Kutyniok G (2022) The {Mathematics} of {Artificial} {Intelligence}.
+  arXiv:220308890 [cs, math, stat]
+  \urlprefix\url{http://arxiv.org/abs/2203.08890}, arXiv: 2203.08890
+
+\bibitem[{Lagaris et~al(1998)Lagaris, Likas, and
+  Fotiadis}]{Lag1998_ArtificialNeuralNetworks_LikLLF}
+Lagaris I, Likas A, Fotiadis D (1998) Artificial neural networks for solving
+  ordinary and partial differential equations. IEEE Transactions on Neural
+  Networks 9(5):987--1000. \doi{10.1109/72.712178}
+
+\bibitem[{Lagaris et~al(2000)Lagaris, Likas, and
+  Papageorgiou}]{Lag2000_NeuralNetworkMethods_LikLLP}
+Lagaris I, Likas A, Papageorgiou D (2000) Neural-network methods for boundary
+  value problems with irregular boundaries. IEEE Transactions on Neural
+  Networks 11(5):1041--1049. \doi{10.1109/72.870037}
+
+\bibitem[{Lai et~al(2021)Lai, Mylonas, Nagarajaiah, and
+  Chatzi}]{Lai2021_StructuralIdentificationPhysics_MylLMNC}
+Lai Z, Mylonas C, Nagarajaiah S, et~al (2021) Structural identification with
+  physics-informed neural ordinary differential equations. Journal of Sound and
+  Vibration 508:116,196. \doi{https://doi.org/10.1016/j.jsv.2021.116196},
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0022460X21002686}
+
+\bibitem[{LeCun et~al(2015)LeCun, Bengio, and
+  Hinton}]{LeC2015_DeepLearning_BenLBH}
+LeCun Y, Bengio Y, Hinton G (2015) Deep learning. Nature 521(7553):436--444.
+  \doi{10.1038/nature14539},
+  \urlprefix\url{https://doi.org/10.1038/nature14539}
+
+\bibitem[{Lee and Kang(1990)}]{Lee1990_NeuralAlgorithmSolving_KanLK}
+Lee H, Kang IS (1990) Neural algorithm for solving differential equations.
+  Journal of Computational Physics 91(1):110--131.
+  \doi{10.1016/0021-9991(90)90007-N},
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/002199919090007N}
+
+\bibitem[{Li et~al(2021)Li, Bazant, and
+  Zhu}]{Li2021_PhysicsGuidedNeural_BazLBZ}
+Li W, Bazant MZ, Zhu J (2021) A physics-guided neural network framework for
+  elastic plates: {Comparison} of governing equations-based and energy-based
+  approaches. Computer Methods in Applied Mechanics and Engineering
+  383:113,933. \doi{10.1016/j.cma.2021.113933},
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S004578252100270X}
+
+\bibitem[{Lin et~al(2021{\natexlab{a}})Lin, Li, Lu, Cai, Maxey, and
+  Karniadakis}]{Lin2021_OperatorLearningPredicting_LiLLL}
+Lin C, Li Z, Lu L, et~al (2021{\natexlab{a}}) Operator learning for predicting
+  multiscale bubble growth dynamics. The Journal of Chemical Physics
+  154(10):104,118. \doi{10.1063/5.0041203},
+  \urlprefix\url{https://aip.scitation.org/doi/10.1063/5.0041203}
+
+\bibitem[{Lin et~al(2021{\natexlab{b}})Lin, Maxey, Li, and
+  Karniadakis}]{Lin2021_SeamlessMultiscaleOperator_MaxLMLK}
+Lin C, Maxey M, Li Z, et~al (2021{\natexlab{b}}) A seamless multiscale operator
+  neural network for inferring bubble dynamics. Journal of Fluid Mechanics 929.
+  \doi{10.1017/jfm.2021.866},
+  \urlprefix\url{https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/seamless-multiscale-operator-neural-network-for-inferring-bubble-dynamics/D516AB0EF954D0FF56AD864DB2618E94}
+
+\bibitem[{Liu and Wang(2021)}]{Liu2021_DualDimerMethod_WanLW}
+Liu D, Wang Y (2021) A {Dual}-{Dimer} method for training physics-constrained
+  neural networks with minimax architecture. Neural Networks 136:112--125.
+  \doi{10.1016/j.neunet.2020.12.028},
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0893608020304536}
+
+\bibitem[{Lu et~al(2020)Lu, Dao, Kumar, Ramamurty, Karniadakis, and
+  Suresh}]{Lu2020_ExtractionMechanicalProperties_DaoLDK}
+Lu L, Dao M, Kumar P, et~al (2020) Extraction of mechanical properties of
+  materials through deep learning from instrumented indentation. Proceedings of
+  the National Academy of Sciences 117(13):7052--7062.
+  \doi{10.1073/pnas.1922210117},
+  \urlprefix\url{https://www.pnas.org/content/117/13/7052},
+  {\href{https://arxiv.org/abs/https://www.pnas.org/content/117/13/7052.full.pdf}{{https://arxiv.org/abs/https://www.pnas.org/content/117/13/7052.full.pdf}}}
+
+\bibitem[{Lu et~al(2021{\natexlab{a}})Lu, Jin, Pang, Zhang, and
+  Karniadakis}]{Lu2021_LearningNonlinearOperators_JinLJP}
+Lu L, Jin P, Pang G, et~al (2021{\natexlab{a}}) Learning nonlinear operators
+  via {DeepONet} based on the universal approximation theorem of operators.
+  Nature Machine Intelligence 3(3):218--229. \doi{10.1038/s42256-021-00302-5},
+  \urlprefix\url{https://www.nature.com/articles/s42256-021-00302-5}
+
+\bibitem[{Lu et~al(2021{\natexlab{b}})Lu, Meng, Mao, and
+  Karniadakis}]{lu2021deepxde}
+Lu L, Meng X, Mao Z, et~al (2021{\natexlab{b}}) {DeepXDE}: A deep learning
+  library for solving differential equations. SIAM Review 63(1):208--228.
+  \doi{10.1137/19M1274067}
+
+\bibitem[{Mallat(2016)}]{Mal2016_UnderstandingDeepConvolutional_Mal}
+Mallat S (2016) Understanding deep convolutional networks. Philosophical
+  Transactions of the Royal Society A: Mathematical, Physical and Engineering
+  Sciences 374(2065):20150,203. \doi{10.1098/rsta.2015.0203},
+  \urlprefix\url{https://royalsocietypublishing.org/doi/10.1098/rsta.2015.0203}
+
+\bibitem[{Mao et~al(2020)Mao, Jagtap, and
+  Karniadakis}]{Mao2020_PhysicsInformedNeural_JagMJK}
+Mao Z, Jagtap AD, Karniadakis GE (2020) Physics-informed neural networks for
+  high-speed flows. Computer Methods in Applied Mechanics and Engineering
+  360:112,789. \doi{10.1016/j.cma.2019.112789},
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0045782519306814}
+
+\bibitem[{Mao et~al(2021)Mao, Lu, Marxen, Zaki, and
+  Karniadakis}]{Mao2021_DeepmmnetHypersonicsPredicting_LuMLM}
+Mao Z, Lu L, Marxen O, et~al (2021) {DeepM}\&{Mnet} for hypersonics:
+  {Predicting} the coupled flow and finite-rate chemistry behind a normal shock
+  using neural-network approximation of operators. Journal of Computational
+  Physics 447:110,698. \doi{10.1016/j.jcp.2021.110698},
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0021999121005933}
+
+\bibitem[{Markidis(2021)}]{Mar2021_OldNewCan_Mar}
+Markidis S (2021) The {Old} and the {New}: {Can} {Physics}-{Informed}
+  {Deep}-{Learning} {Replace} {Traditional} {Linear} {Solvers}? Frontiers in
+  Big Data 4.
+  \urlprefix\url{https://www.frontiersin.org/article/10.3389/fdata.2021.669097}
+
+\bibitem[{Mathews et~al(2021)Mathews, Francisquez, Hughes, Hatch, Zhu, and
+  Rogers}]{Mat2021_UncoveringTurbulentPlasma_FraMFH}
+Mathews A, Francisquez M, Hughes JW, et~al (2021) Uncovering turbulent plasma
+  dynamics via deep learning from partial observations. Physical Review E
+  104(2). \doi{10.1103/physreve.104.025205},
+  \urlprefix\url{https://www.osti.gov/pages/biblio/1813020}
+
+\bibitem[{McClenny et~al(2021)McClenny, Haile, and
+  Braga-Neto}]{mcclenny2021tensordiffeq}
+McClenny LD, Haile MA, Braga-Neto UM (2021) Tensordiffeq: Scalable multi-gpu
+  forward and inverse solvers for physics informed neural networks. arXiv
+  preprint arXiv:210316034
+
+\bibitem[{Mehta et~al(2019)Mehta, Pang, Song, and
+  Karniadakis}]{Meh2019_DiscoveringUniversalVariable_PanMPSK}
+Mehta PP, Pang G, Song F, et~al (2019) Discovering a universal variable-order
+  fractional model for turbulent couette flow using a physics-informed neural
+  network. Fractional Calculus and Applied Analysis 22(6):1675--1688.
+  \doi{10.1515/fca-2019-0086},
+  \urlprefix\url{https://doi.org/10.1515/fca-2019-0086}
+
+\bibitem[{Meng et~al(2020)Meng, Li, Zhang, and
+  Karniadakis}]{Men2020_PpinnPararealPhysics_LiMLZK}
+Meng X, Li Z, Zhang D, et~al (2020) Ppinn: Parareal physics-informed neural
+  network for time-dependent pdes. Computer Methods in Applied Mechanics and
+  Engineering 370:113,250. \doi{https://doi.org/10.1016/j.cma.2020.113250},
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0045782520304357}
+
+\bibitem[{Minh Nguyen-Thanh et~al(2020)Minh Nguyen-Thanh, Trong Khiem~Nguyen,
+  Rabczuk, and Zhuang}]{Min2020_SurrogateModelComputational_TroMNTKNRZ}
+Minh Nguyen-Thanh V, Trong Khiem~Nguyen L, Rabczuk T, et~al (2020) A surrogate
+  model for computational homogenization of elastostatics at finite strain
+  using high-dimensional model representation-based neural network.
+  International Journal for Numerical Methods in Engineering
+  121(21):4811--4842. \doi{10.1002/nme.6493},
+  \urlprefix\url{https://onlinelibrary.wiley.com/doi/abs/10.1002/nme.6493}
+
+\bibitem[{Mishra and
+  Molinaro(2021{\natexlab{a}})}]{Mis2021_EstimatesGeneralizationError_MolMM}
+Mishra S, Molinaro R (2021{\natexlab{a}}) Estimates on the generalization error
+  of physics-informed neural networks for approximating a class of inverse
+  problems for {PDEs}. {IMA} Journal of Numerical Analysis
+  \doi{10.1093/imanum/drab032},
+  \urlprefix\url{https://doi.org/10.1093/imanum/drab032}
+
+\bibitem[{Mishra and
+  Molinaro(2021{\natexlab{b}})}]{Mis2021_PhysicsInformedNeural_MolMM}
+Mishra S, Molinaro R (2021{\natexlab{b}}) Physics informed neural networks for
+  simulating radiative transfer. Journal of Quantitative Spectroscopy and
+  Radiative Transfer 270:107,705. \doi{10.1016/j.jqsrt.2021.107705},
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0022407321001989}
+
+\bibitem[{Mishra and
+  Molinaro(2022)}]{Mis2022_EstimatesGeneralizationError_MolMM}
+Mishra S, Molinaro R (2022) Estimates on the generalization error of
+  physics-informed neural networks for approximating {PDEs}. IMA Journal of
+  Numerical Analysis p drab093. \doi{10.1093/imanum/drab093},
+  \urlprefix\url{https://doi.org/10.1093/imanum/drab093}
+
+\bibitem[{Misyris et~al(2020)Misyris, Venzke, and
+  Chatzivasileiadis}]{Misyris2020PhysicsInformedNN}
+Misyris GS, Venzke A, Chatzivasileiadis S (2020) Physics-informed neural
+  networks for power systems. 2020 IEEE Power \& Energy Society General Meeting
+  (PESGM) pp 1--5
+
+\bibitem[{Mo et~al(2022)Mo, Ling, and Zeng}]{Mo2022_DataDrivenVector_LinMLZ}
+Mo Y, Ling L, Zeng D (2022) Data-driven vector soliton solutions of coupled
+  nonlinear {Schrödinger} equation using a deep learning algorithm. Physics
+  Letters A 421:127,739. \doi{10.1016/j.physleta.2021.127739},
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0375960121006034}
+
+\bibitem[{Moseley et~al(2021)Moseley, Markham, and
+  Nissen-Meyer}]{Mos2021_FiniteBasisPhysics_MarMMN}
+Moseley B, Markham A, Nissen-Meyer T (2021) Finite {Basis} {Physics}-{Informed}
+  {Neural} {Networks} ({FBPINNs}): a scalable domain decomposition approach for
+  solving differential equations. arXiv:210707871 [physics]
+  \urlprefix\url{http://arxiv.org/abs/2107.07871}, arXiv: 2107.07871
+
+\bibitem[{Muhammad et~al(2021)Muhammad, Aseere, Chiroma, Shah, Gital, and
+  Hashem}]{Muh2021_DeepLearningApplication_AseMAC}
+Muhammad AN, Aseere AM, Chiroma H, et~al (2021) Deep learning application in
+  smart cities: recent development, taxonomy, challenges and research
+  prospects. Neural Computing and Applications 33(7):2973--3009.
+  \doi{10.1007/s00521-020-05151-8},
+  \urlprefix\url{https://doi.org/10.1007/s00521-020-05151-8}
+
+\bibitem[{Nabian et~al(2021)Nabian, Gladstone, and
+  Meidani}]{Nab2021_EfficientTrainingPhysics_GlaNGM}
+Nabian MA, Gladstone RJ, Meidani H (2021) Efficient training of
+  physics-informed neural networks via importance sampling. Computer-Aided
+  Civil and Infrastructure Engineering 36(8):962--977.
+  \doi{10.1111/mice.12685},
+  \urlprefix\url{https://onlinelibrary.wiley.com/doi/abs/10.1111/mice.12685}
+
+\bibitem[{Nandi et~al(2021)Nandi, Hennigh, Nabian, Liu, Woo, Jordan, Shahnam,
+  Syamlal, Guenther, and VanEssendelft}]{Nan2021_ProgressTowardsSolving_HenNHN}
+Nandi T, Hennigh O, Nabian M, et~al (2021) Progress {Towards} {Solving} {High}
+  {Reynolds} {Number} {Reacting} {Flows} in {SimNet}. Tech. rep.,
+  \urlprefix\url{https://www.osti.gov/biblio/1846970-progress-towards-solving-high-reynolds-number-reacting-flows-simnet}
+
+\bibitem[{Nandi et~al(2022)Nandi, Hennigh, Nabian, Liu, Woo, Jordan, Shahnam,
+  Guenther, and VanEssendelft}]{Nan2022_DevelopingDigitalTwins_HenNHN}
+Nandi T, Hennigh O, Nabian M, et~al (2022) Developing {Digital} {Twins} for
+  {Energy} {Applications} {Using} {Modulus}. Tech. rep.,
+  \urlprefix\url{https://www.osti.gov/biblio/1866819}
+
+\bibitem[{Nascimento et~al(2020)Nascimento, Fricke, and
+  Viana}]{Nas2020_TutorialSolvingOrdinary_FriNFV}
+Nascimento RG, Fricke K, Viana FA (2020) A tutorial on solving ordinary
+  differential equations using python and hybrid physics-informed neural
+  network. Engineering Applications of Artificial Intelligence 96:103,996.
+  \doi{https://doi.org/10.1016/j.engappai.2020.103996},
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S095219762030292X}
+
+\bibitem[{Novak et~al(2020)Novak, Xiao, Hron, Lee, Alemi, Sohl-Dickstein, and
+  Schoenholz}]{neuraltangents2020}
+Novak R, Xiao L, Hron J, et~al (2020) Neural tangents: Fast and easy infinite
+  neural networks in python. In: International Conference on Learning
+  Representations, \urlprefix\url{https://github.com/google/neural-tangents}
+
+\bibitem[{{NVIDIA Corporation}(2021)}]{Modulus2021}
+{NVIDIA Corporation} (2021) {Modulus User Guide}.
+  \url{https://developer.nvidia.com/modulus-user-guide-v2106}, release v21.06
+  -- November 9, 2021
+
+\bibitem[{Oreshkin et~al(2020)Oreshkin, Carpov, Chapados, and
+  Bengio}]{Ore2020_NBeatsNeural_CarOCCB}
+Oreshkin BN, Carpov D, Chapados N, et~al (2020) N-{BEATS}: {Neural} basis
+  expansion analysis for interpretable time series forecasting. arXiv:190510437
+  [cs, stat] \urlprefix\url{http://arxiv.org/abs/1905.10437}, arXiv: 1905.10437
+
+\bibitem[{Owhadi(2015)}]{Owh2015_BayesianNumericalHomogenization_Owh}
+Owhadi H (2015) Bayesian numerical homogenization. Multiscale Modeling \&
+  Simulation 13(3):812--828. \doi{10.1137/140974596},
+  \urlprefix\url{https://doi.org/10.1137/140974596},
+  {\href{https://arxiv.org/abs/https://doi.org/10.1137/140974596}{{https://arxiv.org/abs/https://doi.org/10.1137/140974596}}}
+
+\bibitem[{Owhadi and Yoo(2019)}]{Owh2019_KernelFlowsLearning_YooOY}
+Owhadi H, Yoo GR (2019) Kernel {Flows}: {From} learning kernels from data into
+  the abyss. Journal of Computational Physics 389:22--47.
+  \doi{10.1016/j.jcp.2019.03.040},
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0021999119302232}
+
+\bibitem[{Pang et~al(2019)Pang, Lu, and
+  Karniadakis}]{Pan2019_FpinnsFractionalPhysics_LuPLK}
+Pang G, Lu L, Karniadakis GE (2019) {fPINNs}: {Fractional} {Physics}-{Informed}
+  {Neural} {Networks}. SIAM Journal on Scientific Computing 41(4):A2603--A2626.
+  \doi{10.1137/18M1229845},
+  \urlprefix\url{https://epubs.siam.org/doi/abs/10.1137/18M1229845}
+
+\bibitem[{Paszke et~al(2017)Paszke, Gross, Chintala, Chanan, Yang, DeVito, Lin,
+  Desmaison, Antiga, and
+  Lerer}]{Pas2017_AutomaticDifferentiationPytorch_GroPGC}
+Paszke A, Gross S, Chintala S, et~al (2017) Automatic differentiation in
+  {PyTorch}. Tech. rep.,
+  \urlprefix\url{https://openreview.net/forum?id=BJJsrmfCZ}
+
+\bibitem[{Patel et~al(2022)Patel, Manickam, Trask, Wood, Lee, Tomas, and
+  Cyr}]{Pat2022_ThermodynamicallyConsistentPhysics_ManPMT}
+Patel RG, Manickam I, Trask NA, et~al (2022) Thermodynamically consistent
+  physics-informed neural networks for hyperbolic systems. Journal of
+  Computational Physics 449:110,754. \doi{10.1016/j.jcp.2021.110754},
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0021999121006495}
+
+\bibitem[{Pedro et~al(2019)Pedro, Maroñas, and
+  Paredes}]{Ped2019_SolvingPartialDifferential_MarPMP}
+Pedro JB, Maroñas J, Paredes R (2019) Solving {Partial} {Differential}
+  {Equations} with {Neural} {Networks}. arXiv:191204737 [physics]
+  \urlprefix\url{http://arxiv.org/abs/1912.04737}, arXiv: 1912.04737
+
+\bibitem[{Peng et~al(2021)Peng, Zhang, Zhou, Zhao, Yao, and
+  Chen}]{Pen2021_IdrlnetPhysicsInformed_ZhaPZZ}
+Peng W, Zhang J, Zhou W, et~al (2021) {IDRLnet}: {A} {Physics}-{Informed}
+  {Neural} {Network} {Library}. arXiv:210704320 [cs, math]
+  \urlprefix\url{http://arxiv.org/abs/2107.04320}, arXiv: 2107.04320
+
+\bibitem[{Pinkus(1999)}]{Pin1999_ApproximationTheoryMlp_Pin}
+Pinkus A (1999) Approximation theory of the {MLP} model in neural networks.
+  Acta Numerica 8:143--195. \doi{10.1017/S0962492900002919},
+  \urlprefix\url{https://www.cambridge.org/core/journals/acta-numerica/article/abs/approximation-theory-of-the-mlp-model-in-neural-networks/18072C558C8410C4F92A82BCC8FC8CF9}
+
+\bibitem[{Pratama et~al(2021)Pratama, Bakar, Man, and
+  Mashuri}]{Pra2021_AnnsBasedMethod_BakPBMM}
+Pratama DA, Bakar MA, Man M, et~al (2021) {ANNs}-{Based} {Method} for {Solving}
+  {Partial} {Differential} {Equations} : {A} {Survey}. Preprint
+  \doi{10.20944/preprints202102.0160.v1},
+  \urlprefix\url{https://www.preprints.org/manuscript/202102.0160/v1}
+
+\bibitem[{Psichogios and Ungar(1992)}]{Psi1992_HybridNeuralNetwork_UngPU}
+Psichogios DC, Ungar LH (1992) A hybrid neural network-first principles
+  approach to process modeling. AIChE Journal 38(10):1499--1511.
+  \doi{10.1002/aic.690381003},
+  \urlprefix\url{https://onlinelibrary.wiley.com/doi/abs/10.1002/aic.690381003}
+
+\bibitem[{Quarteroni(2013)}]{Qua2013_NumericalModelsDifferential_Qua}
+Quarteroni A (2013) Numerical Models for Differential Problems, 2nd edn.
+  Springer Publishing Company, Incorporated
+
+\bibitem[{Rackauckas et~al(2021)Rackauckas, Ma, Martensen, Warner, Zubov,
+  Supekar, Skinner, Ramadhan, and
+  Edelman}]{Rac2021_UniversalDifferentialEquations_MaRMM}
+Rackauckas C, Ma Y, Martensen J, et~al (2021) Universal {Differential}
+  {Equations} for {Scientific} {Machine} {Learning}. arXiv:200104385 [cs, math,
+  q-bio, stat] \urlprefix\url{http://arxiv.org/abs/2001.04385}, arXiv:
+  2001.04385
+
+\bibitem[{Rafiq et~al(2022)Rafiq, Rafiq, and
+  Choi}]{Raf2022_DsfaPinnDeep_RafRRC}
+Rafiq M, Rafiq G, Choi GS (2022) {DSFA}-{PINN}: {Deep} {Spectral} {Feature}
+  {Aggregation} {Physics} {Informed} {Neural} {Network}. IEEE Access
+  10:22,247--22,259. \doi{10.1109/ACCESS.2022.3153056}
+
+\bibitem[{Raissi(2018)}]{Rai2018_DeepHiddenPhysics_Rai}
+Raissi M (2018) Deep hidden physics models: Deep learning of nonlinear partial
+  differential equations. Journal of Machine Learning Research 19(25):1--24.
+  \urlprefix\url{http://jmlr.org/papers/v19/18-046.html}
+
+\bibitem[{Raissi and Karniadakis(2018)}]{Rai2018_HiddenPhysicsModels_KarRK}
+Raissi M, Karniadakis GE (2018) Hidden physics models: {Machine} learning of
+  nonlinear partial differential equations. Journal of Computational Physics
+  357:125--141. \doi{10.1016/j.jcp.2017.11.039},
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0021999117309014}
+
+\bibitem[{Raissi et~al(2017{\natexlab{a}})Raissi, Perdikaris, and
+  Karniadakis}]{Rai2017_InferringSolutionsDifferential_PerRPK}
+Raissi M, Perdikaris P, Karniadakis GE (2017{\natexlab{a}}) Inferring solutions
+  of differential equations using noisy multi-fidelity data. Journal of
+  Computational Physics 335:736--746. \doi{10.1016/j.jcp.2017.01.060},
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0021999117300761}
+
+\bibitem[{Raissi et~al(2017{\natexlab{b}})Raissi, Perdikaris, and
+  Karniadakis}]{Rai2017_MachineLearningLinear_PerRPK}
+Raissi M, Perdikaris P, Karniadakis GE (2017{\natexlab{b}}) Machine learning of
+  linear differential equations using {Gaussian} processes. Journal of
+  Computational Physics 348:683--693. \doi{10.1016/j.jcp.2017.07.050},
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0021999117305582}
+
+\bibitem[{Raissi et~al(2017{\natexlab{c}})Raissi, Perdikaris, and
+  Karniadakis}]{Rai2017_PhysicsInformedDeep1_PerRPK}
+Raissi M, Perdikaris P, Karniadakis GE (2017{\natexlab{c}}) Physics {Informed}
+  {Deep} {Learning} ({Part} {I}): {Data}-driven {Solutions} of {Nonlinear}
+  {Partial} {Differential} {Equations}. arXiv:171110561 [cs, math, stat]
+  \urlprefix\url{http://arxiv.org/abs/1711.10561}, arXiv: 1711.10561
+
+\bibitem[{Raissi et~al(2017{\natexlab{d}})Raissi, Perdikaris, and
+  Karniadakis}]{Rai2017_PhysicsInformedDeep2_PerRPK}
+Raissi M, Perdikaris P, Karniadakis GE (2017{\natexlab{d}}) Physics {Informed}
+  {Deep} {Learning} ({Part} {II}): {Data}-driven {Discovery} of {Nonlinear}
+  {Partial} {Differential} {Equations}. arXiv:171110566 [cs, math, stat]
+  \urlprefix\url{http://arxiv.org/abs/1711.10566}, arXiv: 1711.10566
+
+\bibitem[{Raissi et~al(2018)Raissi, Perdikaris, and
+  Karniadakis}]{Rai2018_NumericalGaussianProcesses_PerRPK}
+Raissi M, Perdikaris P, Karniadakis GE (2018) Numerical gaussian processes for
+  time-dependent and nonlinear partial differential equations. SIAM Journal on
+  Scientific Computing 40(1):A172--A198. \doi{10.1137/17M1120762},
+  {\href{https://arxiv.org/abs/https://doi.org/10.1137/17M1120762}{{https://arxiv.org/abs/https://doi.org/10.1137/17M1120762}}}
+
+\bibitem[{Raissi et~al(2019)Raissi, Perdikaris, and
+  Karniadakis}]{Rai2019_PhysicsInformedNeural_PerRPK}
+Raissi M, Perdikaris P, Karniadakis GE (2019) Physics-informed neural networks:
+  {A} deep learning framework for solving forward and inverse problems
+  involving nonlinear partial differential equations. Journal of Computational
+  Physics 378:686--707. \doi{10.1016/j.jcp.2018.10.045},
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0021999118307125}
+
+\bibitem[{Raissi et~al(2020)Raissi, Yazdani, and
+  Karniadakis}]{Rai2020_HiddenFluidMechanics_YazRYK}
+Raissi M, Yazdani A, Karniadakis GE (2020) Hidden fluid mechanics: {Learning}
+  velocity and pressure fields from flow visualizations. Science
+  367(6481):1026--1030. \doi{10.1126/science.aaw4741},
+  \urlprefix\url{https://www.science.org/doi/10.1126/science.aaw4741}
+
+\bibitem[{Ramabathiran and
+  Ramachandran(2021)}]{Ram2021_SpinnSparsePhysics_RamRR}
+Ramabathiran AA, Ramachandran P (2021) {SPINN}: {Sparse}, {Physics}-based, and
+  partially {Interpretable} {Neural} {Networks} for {PDEs}. Journal of
+  Computational Physics 445:110,600. \doi{10.1016/j.jcp.2021.110600},
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0021999121004952}
+
+\bibitem[{Rudin et~al(2022)Rudin, Chen, Chen, Huang, Semenova, and
+  Zhong}]{Rud2022_InterpretableMachineLearning_CheRCC}
+Rudin C, Chen C, Chen Z, et~al (2022) Interpretable machine learning:
+  {Fundamental} principles and 10 grand challenges. Statistics Surveys
+  16(none):1--85. \doi{10.1214/21-SS133},
+  \urlprefix\url{https://projecteuclid.org/journals/statistics-surveys/volume-16/issue-none/Interpretable-machine-learning-Fundamental-principles-and-10-grand-challenges/10.1214/21-SS133.full}
+
+\bibitem[{Ryaben'kii and
+  Tsynkov(2006)}]{Rya2006_TheoreticalIntroductionNumerical_TsyRT}
+Ryaben'kii VS, Tsynkov SV (2006) A {Theoretical} {Introduction} to {Numerical}
+  {Analysis}. CRC Press
+
+\bibitem[{Sahli~Costabal et~al(2020)Sahli~Costabal, Yang, Perdikaris, Hurtado,
+  and Kuhl}]{Sah2020_PhysicsInformedNeural_YanSCYP}
+Sahli~Costabal F, Yang Y, Perdikaris P, et~al (2020) Physics-{Informed}
+  {Neural} {Networks} for {Cardiac} {Activation} {Mapping}. Frontiers in
+  Physics 8:42. \doi{10.3389/fphy.2020.00042},
+  \urlprefix\url{https://www.frontiersin.org/article/10.3389/fphy.2020.00042}
+
+\bibitem[{Scharzenberger and
+  Hays(2021)}]{Sch2021_LearningEstimateRegions_HaySH}
+Scharzenberger C, Hays J (2021) Learning {To} {Estimate} {Regions} {Of}
+  {Attraction} {Of} {Autonomous} {Dynamical} {Systems} {Using}
+  {Physics}-{Informed} {Neural} {Networks}. Tech. rep.,
+  \doi{10.48550/arXiv.2111.09930},
+  \urlprefix\url{http://arxiv.org/abs/2111.09930}, arXiv:2111.09930 [cs] type:
+  article
+
+\bibitem[{Schiassi et~al(2021)Schiassi, Furfaro, Leake, De~Florio, Johnston,
+  and Mortari}]{Sch2021_ExtremeTheoryFunctional_FurSFL}
+Schiassi E, Furfaro R, Leake C, et~al (2021) Extreme theory of functional
+  connections: {A} fast physics-informed neural network method for solving
+  ordinary and partial differential equations. Neurocomputing 457:334--356.
+  \doi{10.1016/j.neucom.2021.06.015},
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0925231221009140}
+
+\bibitem[{Schölkopf et~al(2021)Schölkopf, Locatello, Bauer, Ke, Kalchbrenner,
+  Goyal, and Bengio}]{Sch2021_CausalRepresentationLearning_LocSLB}
+Schölkopf B, Locatello F, Bauer S, et~al (2021) Toward {Causal}
+  {Representation} {Learning}. Proceedings of the IEEE 109(5):612--634.
+  \doi{10.1109/JPROC.2021.3058954}
+
+\bibitem[{Sengupta et~al(2020)Sengupta, Basak, Saikia, Paul, Tsalavoutis,
+  Atiah, Ravi, and Peters}]{Sen2020_ReviewDeepLearning_BasSBS}
+Sengupta S, Basak S, Saikia P, et~al (2020) A review of deep learning with
+  special emphasis on architectures, applications and recent trends.
+  Knowledge-Based Systems 194:105,596.
+  \doi{https://doi.org/10.1016/j.knosys.2020.105596},
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S095070512030071X}
+
+\bibitem[{Sergeev and Del~Balso(2018)}]{Ser2018_HorovodFastEasy_DelSDB}
+Sergeev A, Del~Balso M (2018) Horovod: fast and easy distributed deep learning
+  in {TensorFlow}. Tech. rep., \doi{10.48550/arXiv.1802.05799},
+  \urlprefix\url{http://arxiv.org/abs/1802.05799}, arXiv:1802.05799 [cs, stat]
+  type: article
+
+\bibitem[{Shin et~al(2020{\natexlab{a}})Shin, Darbon, and
+  Karniadakis}]{Shi2020_ConvergencePhysicsInformed_DarSDK}
+Shin Y, Darbon J, Karniadakis GE (2020{\natexlab{a}}) On the convergence of
+  physics informed neural networks for linear second-order elliptic and
+  parabolic type {PDEs}. Communications in Computational Physics
+  28(5):2042--2074. \doi{10.4208/cicp.OA-2020-0193},
+  \urlprefix\url{http://arxiv.org/abs/2004.01806}, arXiv: 2004.01806
+
+\bibitem[{Shin et~al(2020{\natexlab{b}})Shin, Zhang, and
+  Karniadakis}]{Shi2020_ErrorEstimatesResidual_ZhaSZK}
+Shin Y, Zhang Z, Karniadakis GE (2020{\natexlab{b}}) Error estimates of
+  residual minimization using neural networks for linear {PDEs}.
+  arXiv:201008019 [cs, math] \urlprefix\url{http://arxiv.org/abs/2010.08019},
+  arXiv: 2010.08019
+
+\bibitem[{Shrestha and Mahmood(2019)}]{Shr2019_ReviewDeepLearning_MahSM}
+Shrestha A, Mahmood A (2019) Review of {Deep} {Learning} {Algorithms} and
+  {Architectures}. IEEE Access 7:53,040--53,065.
+  \doi{10.1109/ACCESS.2019.2912200}
+
+\bibitem[{Sirignano and Spiliopoulos(2018)}]{Sir2018_DgmDeepLearning_SpiSS}
+Sirignano J, Spiliopoulos K (2018) {DGM}: {A} deep learning algorithm for
+  solving partial differential equations. Journal of Computational Physics
+  375:1339--1364. \doi{10.1016/j.jcp.2018.08.029},
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0021999118305527}
+
+\bibitem[{Sitzmann et~al(2020)Sitzmann, Martel, Bergman, Lindell, and
+  Wetzstein}]{Sit2020_ImplicitNeuralRepresentations_MarSMB}
+Sitzmann V, Martel JNP, Bergman AW, et~al (2020) Implicit {Neural}
+  {Representations} with {Periodic} {Activation} {Functions}. arXiv:200609661
+  [cs, eess] \urlprefix\url{http://arxiv.org/abs/2006.09661}, arXiv: 2006.09661
+
+\bibitem[{Smith et~al(2021{\natexlab{a}})Smith, Azizzadenesheli, and
+  Ross}]{Smi2021_EikonetSolvingEikonal_AziSAR}
+Smith JD, Azizzadenesheli K, Ross ZE (2021{\natexlab{a}}) {EikoNet}: {Solving}
+  the {Eikonal} {Equation} {With} {Deep} {Neural} {Networks}. IEEE Transactions
+  on Geoscience and Remote Sensing 59(12):10,685--10,696.
+  \doi{10.1109/TGRS.2020.3039165}
+
+\bibitem[{Smith et~al(2021{\natexlab{b}})Smith, Ross, Azizzadenesheli, and
+  Muir}]{Smi2021_HyposviHypocentreInversion_RosSRAM}
+Smith JD, Ross ZE, Azizzadenesheli K, et~al (2021{\natexlab{b}}) {HypoSVI}:
+  {Hypocentre} inversion with {Stein} variational inference and physics
+  informed neural networks. Geophysical Journal International 228(1):698--710.
+  \doi{10.1093/gji/ggab309},
+  \urlprefix\url{https://doi.org/10.1093/gji/ggab309}
+
+\bibitem[{Stein(1987)}]{Stein1987LargeSP}
+Stein ML (1987) Large sample properties of simulations using latin hypercube
+  sampling. Technometrics 29:143--151
+
+\bibitem[{Stiasny et~al(2021)Stiasny, Misyris, and
+  Chatzivasileiadis}]{Sti2021_PhysicsInformedNeural_MisSMC}
+Stiasny J, Misyris GS, Chatzivasileiadis S (2021) Physics-{Informed} {Neural}
+  {Networks} for {Non}-linear {System} {Identification} for {Power} {System}
+  {Dynamics}. In: 2021 {IEEE} {Madrid} {PowerTech}, pp 1--6,
+  \doi{10.1109/PowerTech46648.2021.9495063}
+
+\bibitem[{Stielow and
+  Scheel(2021)}]{Sti2021_ReconstructionNanoscaleParticles_SchSS}
+Stielow T, Scheel S (2021) Reconstruction of nanoscale particles from
+  single-shot wide-angle free-electron-laser diffraction patterns with
+  physics-informed neural networks. Physical Review E 103(5):053,312.
+  \doi{10.1103/PhysRevE.103.053312},
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevE.103.053312}
+
+\bibitem[{Stiller et~al(2020)Stiller, Bethke, Böhme, Pausch, Torge, Debus,
+  Vorberger, Bussmann, and Hoffmann}]{Sti2020_LargeScaleNeural_BetSBB}
+Stiller P, Bethke F, Böhme M, et~al (2020) Large-{Scale} {Neural} {Solvers}
+  for {Partial} {Differential} {Equations}. In: Nichols J, Verastegui B,
+  Maccabe AB, et~al (eds) Driving {Scientific} and {Engineering} {Discoveries}
+  {Through} the {Convergence} of {HPC}, {Big} {Data} and {AI}. Springer
+  International Publishing, Cham, Communications in {Computer} and
+  {Information} {Science}, pp 20--34, \doi{10.1007/978-3-030-63393-6_2}
+
+\bibitem[{Sun et~al(2020{\natexlab{a}})Sun, Gao, Pan, and
+  Wang}]{Sun2020_SurrogateModelingFluid_GaoSGPW}
+Sun L, Gao H, Pan S, et~al (2020{\natexlab{a}}) Surrogate modeling for fluid
+  flows based on physics-constrained deep learning without simulation data.
+  Computer Methods in Applied Mechanics and Engineering 361:112,732.
+  \doi{10.1016/j.cma.2019.112732},
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S004578251930622X}
+
+\bibitem[{Sun et~al(2020{\natexlab{b}})Sun, Cao, Zhu, and
+  Zhao}]{Sun2020_SurveyOptimizationMethods_CaoSCZZ}
+Sun S, Cao Z, Zhu H, et~al (2020{\natexlab{b}}) A {Survey} of {Optimization}
+  {Methods} {From} a {Machine} {Learning} {Perspective}. IEEE Transactions on
+  Cybernetics 50(8):3668--3681. \doi{10.1109/TCYB.2019.2950779}
+
+\bibitem[{Tartakovsky et~al(2020)Tartakovsky, Marrero, Perdikaris, Tartakovsky,
+  and Barajas-Solano}]{Tar2020_PhysicsInformedDeep_MarTMP}
+Tartakovsky AM, Marrero CO, Perdikaris P, et~al (2020) Physics-{Informed}
+  {Deep} {Neural} {Networks} for {Learning} {Parameters} and {Constitutive}
+  {Relationships} in {Subsurface} {Flow} {Problems}. Water Resources Research
+  56(5):e2019WR026,731. \doi{10.1029/2019WR026731},
+  \urlprefix\url{https://onlinelibrary.wiley.com/doi/abs/10.1029/2019WR026731}
+
+\bibitem[{Thompson(1992)}]{Tho1992_NumericalMethods101convergence_Tho}
+Thompson DB (1992) Numerical {Methods} 101 -- {Convergence} of {Numerical}
+  {Models}. ASCE, pp 398--403,
+  \urlprefix\url{https://cedb.asce.org/CEDBsearch/record.jsp?dockey=0078142}
+
+\bibitem[{Tong et~al(2021)Tong, Xiong, He, Pan, and
+  Zhu}]{Ton2021_SymplecticNeuralNetworks_XioTXH}
+Tong Y, Xiong S, He X, et~al (2021) Symplectic neural networks in taylor series
+  form for hamiltonian systems. Journal of Computational Physics 437:110,325.
+  \doi{https://doi.org/10.1016/j.jcp.2021.110325},
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0021999121002205}
+
+\bibitem[{Torabi~Rad et~al(2020)Torabi~Rad, Viardin, Schmitz, and
+  Apel}]{Tor2020_TheoryTrainingDeep_ViaTRVSA}
+Torabi~Rad M, Viardin A, Schmitz GJ, et~al (2020) Theory-training deep neural
+  networks for an alloy solidification benchmark problem. Computational
+  Materials Science 180:109,687. \doi{10.1016/j.commatsci.2020.109687},
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0927025620301786}
+
+\bibitem[{Viana et~al(2021)Viana, Nascimento, Dourado, and
+  Yucesan}]{Via2021_EstimatingModelInadequacy_NasVNDY}
+Viana FAC, Nascimento RG, Dourado A, et~al (2021) Estimating model inadequacy
+  in ordinary differential equations with physics-informed neural networks.
+  Computers \& Structures 245:106,458. \doi{10.1016/j.compstruc.2020.106458},
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0045794920302613}
+
+\bibitem[{Waheed et~al(2021)Waheed, Haghighat, Alkhalifah, Song, and
+  Hao}]{Wah2021_PinneikEikonalSolution_HagWHA}
+Waheed Ub, Haghighat E, Alkhalifah T, et~al (2021) {PINNeik}: {Eikonal}
+  solution using physics-informed neural networks. Computers \& Geosciences
+  155:104,833. \doi{10.1016/j.cageo.2021.104833},
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S009830042100131X}
+
+\bibitem[{Wang and Yan(2021)}]{Wan2021_DataDrivenRogue_YanWY}
+Wang L, Yan Z (2021) Data-driven rogue waves and parameter discovery in the
+  defocusing nonlinear {Schrödinger} equation with a potential using the
+  {PINN} deep learning. Physics Letters A 404:127,408.
+  \doi{10.1016/j.physleta.2021.127408},
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0375960121002723}
+
+\bibitem[{Wang et~al(2021{\natexlab{a}})Wang, Chang, and
+  Zhang}]{Wan2021_TheoryGuidedAuto_ChaWCZ}
+Wang N, Chang H, Zhang D (2021{\natexlab{a}}) Theory-guided auto-encoder for
+  surrogate construction and inverse modeling. Computer Methods in Applied
+  Mechanics and Engineering 385:114,037. \doi{10.1016/j.cma.2021.114037},
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0045782521003686}
+
+\bibitem[{Wang and Perdikaris(2021)}]{Wan2021_DeepLearningFree_PerWP}
+Wang S, Perdikaris P (2021) Deep learning of free boundary and {Stefan}
+  problems. Journal of Computational Physics 428:109,914.
+  \doi{10.1016/j.jcp.2020.109914},
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0021999120306884}
+
+\bibitem[{Wang et~al(2021{\natexlab{b}})Wang, Teng, and
+  Perdikaris}]{Wan2021_UnderstandingMitigatingGradient_TenWTP}
+Wang S, Teng Y, Perdikaris P (2021{\natexlab{b}}) Understanding and
+  {Mitigating} {Gradient} {Flow} {Pathologies} in {Physics}-{Informed} {Neural}
+  {Networks}. SIAM Journal on Scientific Computing 43(5):A3055--A3081.
+  \doi{10.1137/20M1318043},
+  \urlprefix\url{https://epubs.siam.org/doi/abs/10.1137/20M1318043}
+
+\bibitem[{Wang et~al(2022{\natexlab{a}})Wang, Sankaran, and
+  Perdikaris}]{Wan2022_RespectingCausalityIs_SanWSP}
+Wang S, Sankaran S, Perdikaris P (2022{\natexlab{a}}) Respecting causality is
+  all you need for training physics-informed neural networks. arXiv:220307404
+  [nlin, physics:physics, stat]
+  \urlprefix\url{http://arxiv.org/abs/2203.07404}, arXiv: 2203.07404
+
+\bibitem[{Wang et~al(2022{\natexlab{b}})Wang, Yu, and
+  Perdikaris}]{Wan2022_WhenWhyPinns_YuWYP}
+Wang S, Yu X, Perdikaris P (2022{\natexlab{b}}) When and why {PINNs} fail to
+  train: {A} neural tangent kernel perspective. Journal of Computational
+  Physics 449:110,768. \doi{10.1016/j.jcp.2021.110768},
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S002199912100663X}
+
+\bibitem[{Wen et~al(2022)Wen, Li, Azizzadenesheli, Anandkumar, and
+  Benson}]{Wen2022_UFnoanEnhanced_LiWLA}
+Wen G, Li Z, Azizzadenesheli K, et~al (2022) U-{FNO}—{An} enhanced {Fourier}
+  neural operator-based deep-learning model for multiphase flow. Advances in
+  Water Resources 163:104,180. \doi{10.1016/j.advwatres.2022.104180},
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0309170822000562}
+
+\bibitem[{Wiecha et~al(2021)Wiecha, Arbouet, Arbouet, Girard, Girard, Muskens,
+  and Muskens}]{Wie2021_DeepLearningNano_ArbWAA}
+Wiecha PR, Arbouet A, Arbouet A, et~al (2021) Deep learning in nano-photonics:
+  inverse design and beyond. Photonics Research 9(5):B182--B200.
+  \doi{10.1364/PRJ.415960},
+  \urlprefix\url{https://www.osapublishing.org/prj/abstract.cfm?uri=prj-9-5-B182}
+
+\bibitem[{Wong et~al(2021)Wong, Gupta, and
+  Ong}]{Won2021_CanTransferNeuroevolution_GupWGO}
+Wong JC, Gupta A, Ong YS (2021) Can {Transfer} {Neuroevolution} {Tractably}
+  {Solve} {Your} {Differential} {Equations}? IEEE Computational Intelligence
+  Magazine 16(2):14--30. \doi{10.1109/MCI.2021.3061854}
+
+\bibitem[{Wong et~al(2022)Wong, Ooi, Gupta, and
+  Ong}]{Won2022_LearningSinusoidalSpaces_OoiWOGO}
+Wong JC, Ooi C, Gupta A, et~al (2022) Learning in {Sinusoidal} {Spaces} with
+  {Physics}-{Informed} {Neural} {Networks}. arXiv:210909338 [physics]
+  \urlprefix\url{http://arxiv.org/abs/2109.09338}, arXiv: 2109.09338
+
+\bibitem[{Xiao et~al(2020)Xiao, Wu, Laizet, and
+  Duan}]{Xia2020_FlowsOverPeriodic_WuXWLD}
+Xiao H, Wu JL, Laizet S, et~al (2020) Flows over periodic hills of
+  parameterized geometries: {A} dataset for data-driven turbulence modeling
+  from direct simulations. Computers \& Fluids 200:104,431.
+  \doi{10.1016/j.compfluid.2020.104431},
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0045793020300074}
+
+\bibitem[{Xu and Darve(2020)}]{Xu2020_AdcmeLearningSpatially_DarXD}
+Xu K, Darve E (2020) {ADCME}: {Learning} {Spatially}-varying {Physical}
+  {Fields} using {Deep} {Neural} {Networks}. arXiv:201111955 [cs, math]
+  \urlprefix\url{http://arxiv.org/abs/2011.11955}, arXiv: 2011.11955
+
+\bibitem[{Xu and Darve(2021)}]{Xu2021_SolvingInverseProblems_DarXD}
+Xu K, Darve E (2021) Solving inverse problems in stochastic models using deep
+  neural networks and adversarial training. Computer Methods in Applied
+  Mechanics and Engineering 384:113,976. \doi{10.1016/j.cma.2021.113976},
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0045782521003078}
+
+\bibitem[{Yang et~al(2020)Yang, Zhang, and
+  Karniadakis}]{Yan2020_PhysicsInformedGenerative_ZhaYZK}
+Yang L, Zhang D, Karniadakis GE (2020) Physics-informed generative adversarial
+  networks for stochastic differential equations. SIAM Journal on Scientific
+  Computing 42(1):A292--A317. \doi{10.1137/18M1225409},
+  \urlprefix\url{https://doi.org/10.1137/18M1225409},
+  {\href{https://arxiv.org/abs/https://doi.org/10.1137/18M1225409}{{https://arxiv.org/abs/https://doi.org/10.1137/18M1225409}}}
+
+\bibitem[{Yang et~al(2021)Yang, Meng, and
+  Karniadakis}]{Yan2021_BPinnsBayesian_MenYMK}
+Yang L, Meng X, Karniadakis GE (2021) B-{PINNs}: {Bayesian} physics-informed
+  neural networks for forward and inverse {PDE} problems with noisy data.
+  Journal of Computational Physics 425:109,913.
+  \doi{10.1016/j.jcp.2020.109913},
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0021999120306872}
+
+\bibitem[{Yang and
+  Perdikaris(2019)}]{Yan2019_AdversarialUncertaintyQuantification_PerYP}
+Yang Y, Perdikaris P (2019) Adversarial uncertainty quantification in
+  physics-informed neural networks. Journal of Computational Physics
+  394:136--152. \doi{10.1016/j.jcp.2019.05.027},
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0021999119303584}
+
+\bibitem[{Yarotsky(2017)}]{Yar2017_ErrorBoundsApproximations_Yar}
+Yarotsky D (2017) Error bounds for approximations with deep relu networks.
+  Neural Networks 94:103--114.
+  \doi{https://doi.org/10.1016/j.neunet.2017.07.002},
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0893608017301545}
+
+\bibitem[{Yuan et~al(2022)Yuan, Ni, Deng, and
+  Hao}]{Yua2022_PinnAuxiliaryPhysics_NiYNDH}
+Yuan L, Ni YQ, Deng XY, et~al (2022) A-{PINN}: {Auxiliary} physics informed
+  neural networks for forward and inverse problems of nonlinear
+  integro-differential equations. Journal of Computational Physics 462:111,260.
+  \doi{10.1016/j.jcp.2022.111260},
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0021999122003229}
+
+\bibitem[{Yucesan and Viana(2021)}]{Yuc2021_HybridPhysicsInformed_ViaYV}
+Yucesan YA, Viana FAC (2021) Hybrid physics-informed neural networks for main
+  bearing fatigue prognosis with visual grease inspection. Computers in
+  Industry 125:103,386. \doi{10.1016/j.compind.2020.103386},
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0166361520306205}
+
+\bibitem[{Özbay et~al(2021)Özbay, Hamzehloo, Laizet, Tzirakis, Rizos, and
+  Schuller}]{Oez2021_PoissonCnnConvolutional_HamOeHL}
+Özbay AG, Hamzehloo A, Laizet S, et~al (2021) Poisson {CNN}: {Convolutional}
+  neural networks for the solution of the {Poisson} equation on a {Cartesian}
+  mesh. Data-Centric Engineering 2. \doi{10.1017/dce.2021.7},
+  \urlprefix\url{https://www.cambridge.org/core/journals/data-centric-engineering/article/poisson-cnn-convolutional-neural-networks-for-the-solution-of-the-poisson-equation-on-a-cartesian-mesh/8CDFD5C9D5172E51B924E9AA1BA253A1}
+
+\bibitem[{Zhang et~al(2020)Zhang, Liu, and
+  Sun}]{Zha2020_PhysicsInformedMulti_LiuZLS}
+Zhang R, Liu Y, Sun H (2020) Physics-informed multi-{LSTM} networks for
+  metamodeling of nonlinear structures. Computer Methods in Applied Mechanics
+  and Engineering 369:113,226. \doi{10.1016/j.cma.2020.113226},
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0045782520304114}
+
+\bibitem[{Zhi-Qin et~al(2020)Zhi-Qin, Xu, , 9573, , Xu, Yaoyu, Zhang, , 9574, ,
+  Zhang, Tao, Luo, , 9575, , Luo, Yanyang, Xiao, , 9576, , Xiao, Zheng, Ma, ,
+  9577, , and Ma}]{Zhi2020_FrequencyPrincipleFourier_XuZX9}
+Zhi-Qin, Xu J, , et~al (2020) Frequency principle: Fourier analysis sheds light
+  on deep neural networks. Communications in Computational Physics
+  28(5):1746--1767. \doi{https://doi.org/10.4208/cicp.OA-2020-0085},
+  \urlprefix\url{http://global-sci.org/intro/article_detail/cicp/18395.html}
+
+\bibitem[{Zhu et~al(2021)Zhu, Liu, and
+  Yan}]{Zhu2021_MachineLearningMetal_LiuZLY}
+Zhu Q, Liu Z, Yan J (2021) Machine learning for metal additive manufacturing:
+  predicting temperature and melt pool fluid dynamics using physics-informed
+  neural networks. Computational Mechanics 67(2):619--635.
+  \doi{10.1007/s00466-020-01952-9},
+  \urlprefix\url{https://doi.org/10.1007/s00466-020-01952-9}
+
+\bibitem[{Zhu et~al(2019)Zhu, Zabaras, Koutsourelakis, and
+  Perdikaris}]{Zhu2019_PhysicsConstrainedDeep_ZabZZKP}
+Zhu Y, Zabaras N, Koutsourelakis PS, et~al (2019) Physics-constrained deep
+  learning for high-dimensional surrogate modeling and uncertainty
+  quantification without labeled data. Journal of Computational Physics
+  394:56--81. \doi{https://doi.org/10.1016/j.jcp.2019.05.024},
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0021999119303559}
+
+\bibitem[{Zubov et~al(2021{\natexlab{a}})Zubov, McCarthy, Ma, Calisto,
+  Pagliarino, Azeglio, Bottero, Luján, Sulzer, Bharambe, Vinchhi,
+  Balakrishnan, Upadhyay, and
+  Rackauckas}]{Zub2021_NeuralpdeAutomatingPhysics_McCZMM}
+Zubov K, McCarthy Z, Ma Y, et~al (2021{\natexlab{a}}) {NeuralPDE}: {Automating}
+  {Physics}-{Informed} {Neural} {Networks} ({PINNs}) with {Error}
+  {Approximations}. arXiv:210709443 [cs]
+  \urlprefix\url{http://arxiv.org/abs/2107.09443}, arXiv: 2107.09443
+
+\bibitem[{Zubov et~al(2021{\natexlab{b}})Zubov, McCarthy, Ma, Calisto,
+  Pagliarino, Azeglio, Bottero, Luján, Sulzer, Bharambe, Vinchhi,
+  Balakrishnan, Upadhyay, and
+  Rackauckas}]{Zub2021_NeuralpdeAutomatingPhysics_McCZMMa}
+Zubov K, McCarthy Z, Ma Y, et~al (2021{\natexlab{b}}) {NeuralPDE}: {Automating}
+  {Physics}-{Informed} {Neural} {Networks} ({PINNs}) with {Error}
+  {Approximations}. arXiv:210709443 [cs]
+  \urlprefix\url{http://arxiv.org/abs/2107.09443}, arXiv: 2107.09443
+
+\end{thebibliography}
