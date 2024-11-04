@@ -6,9 +6,12 @@ DATE: November 5, 2024
 ===== Plans for November 5-8 =====
 
 !bblock Material for the lectures on November 5-8, 2024
-* Writing our own code for a neural network
-* Using TensorFlow and/or Pytorch
+* Writing our own code for a neural networks
+* Using TensorFlow and/or Pytorch for writing codes for neural networks
 * Solving differential equations with Neural Networks
+* See also previous notes from October 10 at URL:"https://github.com/mhjensen/MLcourseUnivDelValle/blob/main/doc/pub/LectureOctober10/ipynb/LectureOctober10.ipynb"
+* Exercise on setting up a feed forward neural network at URL:"https://github.com/mhjensen/MLcourseUnivDelValle/blob/main/doc/Exercises/feedforwardpart.ipynb"
+* Exercise on back propagationat URL:"https://github.com/mhjensen/MLcourseUnivDelValle/blob/main/doc/Exercises/backprogatepart.ipynb
 !eblock
 
 
