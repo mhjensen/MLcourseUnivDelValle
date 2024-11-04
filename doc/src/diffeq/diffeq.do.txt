@@ -3,11 +3,12 @@ AUTHOR: Morten Hjorth-Jensen {copyright, 1999-present|CC BY-NC} at Department of
 DATE: November 5, 2024
 
 !split
-===== Plans for November 5 and 6 =====
+===== Plans for November 5-8 =====
 
-!bblock Material for the lectures on November 5 and 6, 2024
-  * Building our own Feed-forward Neural Network with intro to Tensorflow
-  * Solving differential equations with Neural Networks
+!bblock Material for the lectures on November 5-8, 2024
+* Writing our own code for a neural network
+* Using TensorFlow and/or Pytorch
+* Solving differential equations with Neural Networks
 !eblock
 
 
