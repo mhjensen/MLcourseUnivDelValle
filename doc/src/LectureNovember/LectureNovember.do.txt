@@ -14,6 +14,12 @@ DATE: November 5-8, 2024
 * Exercise on back propagationat URL:"https://github.com/mhjensen/MLcourseUnivDelValle/blob/main/doc/Exercises/backprogatepart.ipynb
 !eblock
 
+!split
+===== Physics based workshop, afternoon sessions: Focus on generative models  =====
+
+o We will start with generative models and this year's Nobel prize in Physics and Boltzmann machines
+o We will use these Boltzmann machines to calculate the expectation values (energy) of quantum mechanical systems
+o And discuss how to solve such equations with neural networks as well
 
 !split
 ===== Background: Mathematics of deep learning =====
