@@ -3956,7 +3956,55 @@ scores <span style="color: #666666">=</span> logistic_regression<span style="col
 <!-- !split -->
 <h2 id="pytorch-example" class="anchor">Pytorch example </h2>
 
-<p>To be added later</p>
+
+<!-- code=python (!bc pycod) typeset with pygments style "default" -->
+<div class="cell border-box-sizing code_cell rendered">
+  <div class="input">
+    <div class="inner_cell">
+      <div class="input_area">
+        <div class="highlight" style="background: #f8f8f8">
+  <pre style="line-height: 125%;"><span style="color: #008000; font-weight: bold">import</span> <span style="color: #0000FF; font-weight: bold">torch</span>
+<span style="color: #008000; font-weight: bold">import</span> <span style="color: #0000FF; font-weight: bold">torch.nn</span> <span style="color: #008000; font-weight: bold">as</span> <span style="color: #0000FF; font-weight: bold">nn</span>
+<span style="color: #008000; font-weight: bold">import</span> <span style="color: #0000FF; font-weight: bold">torch.optim</span> <span style="color: #008000; font-weight: bold">as</span> <span style="color: #0000FF; font-weight: bold">optim</span>
+<span style="color: #408080; font-style: italic"># Define the neural network</span>
+<span style="color: #008000; font-weight: bold">class</span> <span style="color: #0000FF; font-weight: bold">SimpleNN</span>(nn<span style="color: #666666">.</span>Module):
+    <span style="color: #008000; font-weight: bold">def</span> <span style="color: #0000FF">__init__</span>(<span style="color: #008000">self</span>):
+        <span style="color: #008000">super</span>(SimpleNN, <span style="color: #008000">self</span>)<span style="color: #666666">.</span><span style="color: #0000FF">__init__</span>()
+        <span style="color: #008000">self</span><span style="color: #666666">.</span>fc1 <span style="color: #666666">=</span> nn<span style="color: #666666">.</span>Linear(<span style="color: #666666">10</span>, <span style="color: #666666">5</span>)  <span style="color: #408080; font-style: italic"># Input layer to hidden layer</span>
+        <span style="color: #008000">self</span><span style="color: #666666">.</span>fc2 <span style="color: #666666">=</span> nn<span style="color: #666666">.</span>Linear(<span style="color: #666666">5</span>, <span style="color: #666666">1</span>)    <span style="color: #408080; font-style: italic"># Hidden layer to output layer</span>
+    <span style="color: #008000; font-weight: bold">def</span> <span style="color: #0000FF">forward</span>(<span style="color: #008000">self</span>, x):
+        x <span style="color: #666666">=</span> torch<span style="color: #666666">.</span>relu(<span style="color: #008000">self</span><span style="color: #666666">.</span>fc1(x))   <span style="color: #408080; font-style: italic"># Activation function</span>
+        x <span style="color: #666666">=</span> <span style="color: #008000">self</span><span style="color: #666666">.</span>fc2(x)                <span style="color: #408080; font-style: italic"># Output</span>
+        <span style="color: #008000; font-weight: bold">return</span> x
+<span style="color: #408080; font-style: italic"># Instantiate the model, define loss and optimizer</span>
+model <span style="color: #666666">=</span> SimpleNN()
+criterion <span style="color: #666666">=</span> nn<span style="color: #666666">.</span>MSELoss()
+optimizer <span style="color: #666666">=</span> optim<span style="color: #666666">.</span>SGD(model<span style="color: #666666">.</span>parameters(), lr<span style="color: #666666">=0.01</span>)
+<span style="color: #408080; font-style: italic"># Dummy input and output</span>
+input_data <span style="color: #666666">=</span> torch<span style="color: #666666">.</span>randn(<span style="color: #666666">1</span>, <span style="color: #666666">10</span>)
+target <span style="color: #666666">=</span> torch<span style="color: #666666">.</span>tensor([[<span style="color: #666666">1.0</span>]])
+<span style="color: #408080; font-style: italic"># Training step</span>
+optimizer<span style="color: #666666">.</span>zero_grad()
+output <span style="color: #666666">=</span> model(input_data)
+loss <span style="color: #666666">=</span> criterion(output, target)
+loss<span style="color: #666666">.</span>backward()
+optimizer<span style="color: #666666">.</span>step()
+<span style="color: #008000">print</span>(<span style="color: #BA2121">f&#39;Output: </span><span style="color: #BB6688; font-weight: bold">{</span>output<span style="color: #666666">.</span>item()<span style="color: #BB6688; font-weight: bold">}</span><span style="color: #BA2121">, Loss: </span><span style="color: #BB6688; font-weight: bold">{</span>loss<span style="color: #666666">.</span>item()<span style="color: #BB6688; font-weight: bold">}</span><span style="color: #BA2121">&#39;</span>)
+</pre>
+</div>
+      </div>
+    </div>
+  </div>
+  <div class="output_wrapper">
+    <div class="output">
+      <div class="output_area">
+        <div class="output_subarea output_stream output_stdout output_text">          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 <!-- !split -->
 <h2 id="solving-differential-equations-with-deep-learning" class="anchor">Solving differential equations  with Deep Learning </h2>

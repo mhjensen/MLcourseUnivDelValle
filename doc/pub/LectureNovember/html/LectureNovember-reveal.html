@@ -3752,7 +3752,54 @@ scores = logistic_regression.fit(X, yXOR, scheduler, epochs=<span style="color: 
 <section>
 <h2 id="pytorch-example">Pytorch example </h2>
 
-<p>To be added later</p>
+
+<!-- code=python (!bc pycod) typeset with pygments style "perldoc" -->
+<div class="cell border-box-sizing code_cell rendered">
+  <div class="input">
+    <div class="inner_cell">
+      <div class="input_area">
+        <div class="highlight" style="background: #eeeedd">
+  <pre style="font-size: 80%; line-height: 125%;"><span style="color: #8B008B; font-weight: bold">import</span> <span style="color: #008b45; text-decoration: underline">torch</span>
+<span style="color: #8B008B; font-weight: bold">import</span> <span style="color: #008b45; text-decoration: underline">torch.nn</span> <span style="color: #8B008B; font-weight: bold">as</span> <span style="color: #008b45; text-decoration: underline">nn</span>
+<span style="color: #8B008B; font-weight: bold">import</span> <span style="color: #008b45; text-decoration: underline">torch.optim</span> <span style="color: #8B008B; font-weight: bold">as</span> <span style="color: #008b45; text-decoration: underline">optim</span>
+<span style="color: #228B22"># Define the neural network</span>
+<span style="color: #8B008B; font-weight: bold">class</span> <span style="color: #008b45; font-weight: bold">SimpleNN</span>(nn.Module):
+    <span style="color: #8B008B; font-weight: bold">def</span> <span style="color: #008b45">__init__</span>(<span style="color: #658b00">self</span>):
+        <span style="color: #658b00">super</span>(SimpleNN, <span style="color: #658b00">self</span>).<span style="color: #008b45">__init__</span>()
+        <span style="color: #658b00">self</span>.fc1 = nn.Linear(<span style="color: #B452CD">10</span>, <span style="color: #B452CD">5</span>)  <span style="color: #228B22"># Input layer to hidden layer</span>
+        <span style="color: #658b00">self</span>.fc2 = nn.Linear(<span style="color: #B452CD">5</span>, <span style="color: #B452CD">1</span>)    <span style="color: #228B22"># Hidden layer to output layer</span>
+    <span style="color: #8B008B; font-weight: bold">def</span> <span style="color: #008b45">forward</span>(<span style="color: #658b00">self</span>, x):
+        x = torch.relu(<span style="color: #658b00">self</span>.fc1(x))   <span style="color: #228B22"># Activation function</span>
+        x = <span style="color: #658b00">self</span>.fc2(x)                <span style="color: #228B22"># Output</span>
+        <span style="color: #8B008B; font-weight: bold">return</span> x
+<span style="color: #228B22"># Instantiate the model, define loss and optimizer</span>
+model = SimpleNN()
+criterion = nn.MSELoss()
+optimizer = optim.SGD(model.parameters(), lr=<span style="color: #B452CD">0.01</span>)
+<span style="color: #228B22"># Dummy input and output</span>
+input_data = torch.randn(<span style="color: #B452CD">1</span>, <span style="color: #B452CD">10</span>)
+target = torch.tensor([[<span style="color: #B452CD">1.0</span>]])
+<span style="color: #228B22"># Training step</span>
+optimizer.zero_grad()
+output = model(input_data)
+loss = criterion(output, target)
+loss.backward()
+optimizer.step()
+<span style="color: #658b00">print</span>(<span style="color: #CD5555">f&#39;Output: {</span>output.item()<span style="color: #CD5555">}, Loss: {</span>loss.item()<span style="color: #CD5555">}&#39;</span>)
+</pre>
+</div>
+      </div>
+    </div>
+  </div>
+  <div class="output_wrapper">
+    <div class="output">
+      <div class="output_area">
+        <div class="output_subarea output_stream output_stdout output_text">          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 </section>
 
 <section>
