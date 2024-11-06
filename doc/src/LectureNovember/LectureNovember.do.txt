@@ -63,7 +63,7 @@ o Slides 12-44 at URL:"http://cs231n.stanford.edu/slides/2017/cs231n_2017_lectur
 
 
 !split
-===== Lecture November 5 =====
+===== Lecture November 5 and 6 =====
 
 
 !split
@@ -253,6 +253,342 @@ _For the output layer:_
 * For classification the softmax activation function is generally a good choice for classification tasks (when the classes are mutually exclusive).
 * For regression tasks, you can simply use no activation function at all.
 
+
+!split
+===== Automatic differentiation through examples =====
+
+A great introduction to automatic differentiation is given by Baydin et al., see URL:"https://arxiv.org/abs/1502.05767".
+
+Automatic differentiation is a represented by a repeated application
+of the chain rule on well-known functions and allows for the
+calculation of derivatives to numerical precision. It is not the same
+as the calculation of symbolic derivatives via for example SymPy, nor
+does it use approximative formulae based on Taylor-expansions of a
+function around a given value. The latter are error prone due to
+truncation errors and values of the step size $\Delta$.
+
+!split
+===== Simple example =====
+
+Our first example is rather simple,
+!bt
+\[
+f(x) =\exp{x^2},
+\]
+!et
+with derivative
+!bt
+\[
+f'(x) =2x\exp{x^2}.
+\]
+!et
+We can use SymPy to extract the pertinent lines of Python code through the following simple example
+!bc pycod
+from __future__ import division
+from sympy import *
+x = symbols('x')
+expr = exp(x*x)
+simplify(expr)
+derivative = diff(expr,x)
+print(python(expr))
+print(python(derivative))
+!ec
+
+!split
+===== Smarter way of evaluating the above function =====
+If we study this function, we note that we can reduce the number of operations by introducing an intermediate variable
+!bt
+\[
+a = x^2,
+\]
+!et
+leading to 
+!bt
+\[
+f(x) = f(a(x)) = b= \exp{a}.
+\]
+!et
+
+We now assume that all operations can be counted in terms of equal
+floating point operations. This means that in order to calculate
+$f(x)$ we need first to square $x$ and then compute the exponential. We
+have thus two floating point operations only.
+
+!split
+===== Reducing the number of operations =====
+
+With the introduction of a precalculated quantity $a$ and thereby $f(x)$ we have that the derivative can be written as
+
+!bt
+\[
+f'(x) = 2xb,
+\]
+!et
+
+which reduces the number of operations from four in the orginal
+expression to two. This means that if we need to compute $f(x)$ and
+its derivative (a common task in optimizations), we have reduced the
+number of operations from six to four in total.
+
+_Note_ that the usage of a symbolic software like SymPy does not
+include such simplifications and the calculations of the function and
+the derivatives yield in general more floating point operations.
+
+!split
+===== Chain rule, forward and reverse modes =====
+
+In the above example we have introduced the variables $a$ and $b$, and our function is
+!bt
+\[
+f(x) = f(a(x)) = b= \exp{a},
+\]
+!et
+with $a=x^2$. We can decompose the derivative of $f$ with respect to $x$ as
+!bt
+\[
+\frac{df}{dx}=\frac{df}{db}\frac{db}{da}\frac{da}{dx}.
+\]
+!et
+
+We note that since $b=f(x)$ that
+!bt
+\[
+\frac{df}{db}=1,
+\]
+!et
+leading to
+!bt
+\[
+\frac{df}{dx}=\frac{db}{da}\frac{da}{dx}=2x\exp{x^2},
+\]
+!et
+as before.
+
+
+!split
+===== Forward and reverse modes =====
+
+We have that 
+!bt
+\[
+\frac{df}{dx}=\frac{df}{db}\frac{db}{da}\frac{da}{dx},
+\]
+!et
+which we can rewrite either as
+!bt
+\[
+\frac{df}{dx}=\left[\frac{df}{db}\frac{db}{da}\right]\frac{da}{dx},
+\]
+!et
+or
+!bt
+\[
+\frac{df}{dx}=\frac{df}{db}\left[\frac{db}{da}\frac{da}{dx}\right].
+\]
+!et
+
+The first expression is called reverse mode (or back propagation)
+since we start by evaluating the derivatives at the end point and then
+propagate backwards. This is the standard way of evaluating
+derivatives (gradients) when optimizing the parameters of a neural
+network.  In the context of deep learning this is computationally
+more efficient since the output of a neural network consists of either
+one or some few other output variables.
+
+The second equation defines the so-called  _forward mode_.
+
+
+!split
+===== More complicated function =====
+
+We increase our ambitions and introduce a slightly more complicated function
+!bt
+\[
+f(x) =\sqrt{x^2+exp{x^2}},
+\]
+!et
+with derivative
+!bt
+\[
+f'(x) =\frac{x(1+\exp{x^2})}{\sqrt{x^2+exp{x^2}}}.
+\]
+!et
+The corresponding SymPy code reads
+!bc pycod
+from __future__ import division
+from sympy import *
+x = symbols('x')
+expr = sqrt(x*x+exp(x*x))
+simplify(expr)
+derivative = diff(expr,x)
+print(python(expr))
+print(python(derivative))
+!ec
+
+!split
+===== Counting the number of floating point operations =====
+
+A simple count of operations shows that we need five operations for
+the function itself and ten for the derivative.  Fifteen operations in total if we wish to proceed with the above codes.
+
+Can we reduce this to
+say half the number of operations?
+
+!split
+=====  Defining intermediate operations =====
+
+We can indeed reduce the number of operation to half of those listed in the brute force approach above.
+We define the following quantities
+!bt
+\[
+a = x^2,
+\]
+!et
+and
+!bt
+\[
+b = \exp{x^2} = \exp{a},
+\]
+!et
+and
+!bt
+\[
+c= a+b,
+\]
+!et
+and
+!bt
+\[
+d=f(x)=\sqrt{c}.
+\]
+!et
+
+!split
+===== New expression for the derivative =====
+
+With these definitions we obtain the following partial derivatives 
+!bt
+\[
+\frac{\partial a}{\partial x} = 2x,
+\]
+!et
+and
+!bt
+\[
+\frac{\partial b}{\partial a} = \exp{a},
+\]
+!et
+and
+!bt
+\[
+\frac{\partial c}{\partial a} = 1,
+\]
+!et
+and
+!bt
+\[
+\frac{\partial c}{\partial b} = 1,
+\]
+!et
+and
+!bt
+\[
+\frac{\partial d}{\partial c} = \frac{1}{2\sqrt{c}},
+\]
+!et
+and finally
+!bt
+\[
+\frac{\partial f}{\partial d} = 1.
+\]
+!et
+
+!split
+===== Final derivatives =====
+Our final derivatives are thus
+!bt
+\[
+\frac{\partial f}{\partial c} = \frac{\partial f}{\partial d} \frac{\partial d}{\partial c}  = \frac{1}{2\sqrt{c}},
+\]
+!et
+!bt
+\[
+\frac{\partial f}{\partial b} = \frac{\partial f}{\partial c} \frac{\partial c}{\partial b}  = \frac{1}{2\sqrt{c}},
+\]
+!et
+!bt
+\[
+\frac{\partial f}{\partial a} = \frac{\partial f}{\partial c} \frac{\partial c}{\partial a}+
+\frac{\partial f}{\partial b} \frac{\partial b}{\partial a}  = \frac{1+\exp{a}}{2\sqrt{c}},
+\]
+!et
+and finally 
+!bt
+\[
+\frac{\partial f}{\partial x} = \frac{\partial f}{\partial a} \frac{\partial a}{\partial x}  = \frac{x(1+\exp{a})}{\sqrt{c}},
+\]
+!et
+which is just
+!bt
+\[
+\frac{\partial f}{\partial x} = \frac{x(1+b)}{d},
+\]
+!et
+and requires only three operations if we can reuse all intermediate variables.
+
+
+!split
+===== In general not this simple =====
+
+In general, see the generalization below, unless we can obtain simple
+analytical expressions which we can simplify further, the final
+implementation of automatic differentiation involves repeated
+calculations (and thereby operations) of derivatives of elementary
+functions.
+
+!split
+===== Automatic differentiation =====
+
+We can make this example more formal. Automatic differentiation is a
+formalization of the previous example (see graph).
+
+We define $\bm{x}\in x_1,\dots, x_l$ input variables to a given function $f(\bm{x})$ and $x_{l+1},\dots, x_L$ intermediate variables.
+
+In the above example we have only one input variable, $l=1$ and four intermediate variables, that is
+!bt
+\[
+\begin{bmatrix} x_1=x & x_2 = x^2=a & x_3 =\exp{a}= b & x_4=c=a+b & x_5 = \sqrt{c}=d \end{bmatrix}.
+\]
+!et
+
+Furthemore, for $i=l+1, \dots, L$ (here $i=2,3,4,5$ and $f=x_L=d$), we
+define the elementary functions $g_i(x_{Pa(x_i)})$ where $x_{Pa(x_i)}$ are the parent nodes of the variable $x_i$.
+
+In our case, we have for example for $x_3=g_3(x_{Pa(x_i)})=\exp{a}$, that $g_3=\exp{()}$ and $x_{Pa(x_3)}=a$.
+
+!split
+===== Chain rule =====
+
+We can now compute the gradients by back-propagating the derivatives using the chain rule.
+We have defined
+!bt
+\[
+\frac{\partial f}{\partial x_L} = 1,
+\]
+!et
+which allows us to find the derivatives of the various variables $x_i$ as
+!bt
+\[
+\frac{\partial f}{\partial x_i} = \sum_{x_j:x_i\in Pa(x_j)}\frac{\partial f}{\partial x_j} \frac{\partial x_j}{\partial x_i}=\sum_{x_j:x_i\in Pa(x_j)}\frac{\partial f}{\partial x_j} \frac{\partial g_j}{\partial x_i}.
+\]
+!et
+
+Whenever we have a function which can be expressed as a computation
+graph and the various functions can be expressed in terms of
+elementary functions that are differentiable, then automatic
+differentiation works.  The functions may not need to be elementary
+functions, they could also be computer programs, although not all
+programs can be automatically differentiated.
 
 
 
@@ -5252,6 +5588,7 @@ Here we list some of the important limitations of supervised neural network base
 * _Many problems are not about prediction._ In natural science we are often interested in learning something about the underlying distribution that generates the data. In this case, it is often difficult to cast these ideas in a supervised learning setting. While the problems are related, it is possible to make good predictions with a *wrong* model. The model might or might not be useful for understanding the underlying science.
 
 Some of these remarks are particular to DNNs, others are shared by all supervised learning methods. This motivates the use of unsupervised methods which in part circumvent these problems.
+
 
 
 
