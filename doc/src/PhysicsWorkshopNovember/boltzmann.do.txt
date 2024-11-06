@@ -8,14 +8,14 @@ DATE: November 5-8, 2024
 ===== Essential elements of generative models =====
 
 The aim of generative methods is to train a probability distribution $p$. The methods we will focus on are:
-o Energy based models, with the family of Boltzmann distributions as a typical example
+o Energy based models, with the family of Boltzmann distributions as a typical example and if we get time
 o Variational autoencoders, based on our discussions on autoencoders
 o Diffusion models
 
 !split
 ===== Energy models =====
 
-Last week we defined a domain $\bm{X}$ of stochastic variables $\bm{X}= \{x_0,x_1, \dots , x_{n-1}\}$ with a pertinent probability distribution
+Let us define a domain $\bm{X}$ of stochastic variables $\bm{X}= \{x_0,x_1, \dots , x_{n-1}\}$ with a pertinent probability distribution
 !bt
 \[
 p(\bm{X})=\prod_{x_i\in \bm{X}}p(x_i),
@@ -23,7 +23,7 @@ p(\bm{X})=\prod_{x_i\in \bm{X}}p(x_i),
 !et
 where we have assumed that the random varaibles $x_i$ are all independent and identically distributed (iid).
 
-We will now assume that we can defined this function in terms of optimization parameters $\bm{\Theta}$, which could be the biases and weights of deep network, and a set of hidden variables we also assume to be random variables which also are iid. The domain of these variables is
+We will now assume that we can define this function in terms of optimization parameters $\bm{\Theta}$, which could be the biases and weights of deep network, and a set of hidden variables we also assume to be random variables which also are iid. The domain of these variables is
 $\bm{H}= \{h_0,h_1, \dots , h_{m-1}\}$.
 
 !split

@@ -392,21 +392,21 @@ MathJax.Hub.Config({
 
 <p>The aim of generative methods is to train a probability distribution \( p \). The methods we will focus on are:</p>
 <ol>
-<li> Energy based models, with the family of Boltzmann distributions as a typical example</li>
+<li> Energy based models, with the family of Boltzmann distributions as a typical example and if we get time</li>
 <li> Variational autoencoders, based on our discussions on autoencoders</li>
 <li> Diffusion models</li>
 </ol>
 <!-- !split --><br><br><br><br><br><br><br><br><br><br>
 <h2 id="energy-models">Energy models </h2>
 
-<p>Last week we defined a domain \( \boldsymbol{X} \) of stochastic variables \( \boldsymbol{X}= \{x_0,x_1, \dots , x_{n-1}\} \) with a pertinent probability distribution</p>
+<p>Let us define a domain \( \boldsymbol{X} \) of stochastic variables \( \boldsymbol{X}= \{x_0,x_1, \dots , x_{n-1}\} \) with a pertinent probability distribution</p>
 $$
 p(\boldsymbol{X})=\prod_{x_i\in \boldsymbol{X}}p(x_i),
 $$
 
 <p>where we have assumed that the random varaibles \( x_i \) are all independent and identically distributed (iid).</p>
 
-<p>We will now assume that we can defined this function in terms of optimization parameters \( \boldsymbol{\Theta} \), which could be the biases and weights of deep network, and a set of hidden variables we also assume to be random variables which also are iid. The domain of these variables is
+<p>We will now assume that we can define this function in terms of optimization parameters \( \boldsymbol{\Theta} \), which could be the biases and weights of deep network, and a set of hidden variables we also assume to be random variables which also are iid. The domain of these variables is
 \( \boldsymbol{H}= \{h_0,h_1, \dots , h_{m-1}\} \).
 </p>
 
