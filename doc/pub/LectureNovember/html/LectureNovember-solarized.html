@@ -8,8 +8,8 @@ doconce format html LectureNovember.do.txt --pygments_html_style=perldoc --html_
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="DocOnce: https://github.com/doconce/doconce/" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="description" content="Week 43: Deep Learning: Constructing a Neural Network code and solving differential equations">
-<title>Week 43: Deep Learning: Constructing a Neural Network code and solving differential equations</title>
+<meta name="description" content="Deep Learning: Constructing a Neural Network code and solving differential equations">
+<title>Deep Learning: Constructing a Neural Network code and solving differential equations</title>
 <link href="https://cdn.rawgit.com/doconce/doconce/master/bundled/html_styles/style_solarized_box/css/solarized_light_code.css" rel="stylesheet" type="text/css" title="light"/>
 <script src="https://cdn.rawgit.com/doconce/doconce/master/bundled/html_styles/style_solarized_box/js/highlight.pack.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
@@ -427,7 +427,87 @@ div.toc p,a {
                'limitations-of-supervised-learning-with-deep-networks'),
               ('Limitations of NNs', 2, None, 'limitations-of-nns'),
               ('Homogeneous data', 2, None, 'homogeneous-data'),
-              ('More limitations', 2, None, 'more-limitations')]}
+              ('More limitations', 2, None, 'more-limitations'),
+              ('Many-body physics, Quantum Monte Carlo and deep learning',
+               2,
+               None,
+               'many-body-physics-quantum-monte-carlo-and-deep-learning'),
+              ('Quantum Monte Carlo Motivation',
+               2,
+               None,
+               'quantum-monte-carlo-motivation'),
+              ('Quantum Monte Carlo Motivation',
+               2,
+               None,
+               'quantum-monte-carlo-motivation'),
+              ('Energy derivatives', 2, None, 'energy-derivatives'),
+              ('Derivatives of the local energy',
+               2,
+               None,
+               'derivatives-of-the-local-energy'),
+              ('Deep learning neural networks',
+               2,
+               None,
+               'deep-learning-neural-networks'),
+              ('Ansatz for a fermionic state function, Jane Kim et al, Commun '
+               'Phys 7, 148 (2024)',
+               2,
+               None,
+               'ansatz-for-a-fermionic-state-function-jane-kim-et-al-commun-phys-7-148-2024'),
+              ('Nuclear matter setup', 2, None, 'nuclear-matter-setup'),
+              ('Neutron star structure', 2, None, 'neutron-star-structure'),
+              ('"Dilute neutron star matter from neural-network quantum states '
+               'by Fore et al, Physical Review Research 5, 033062 '
+               '(2023)":"https://journals.aps.org/prresearch/pdf/10.1103/PhysRevResearch.5.033062" '
+               'at density $\\rho=0.04$ fm$^{-3}$',
+               2,
+               None,
+               'dilute-neutron-star-matter-from-neural-network-quantum-states-by-fore-et-al-physical-review-research-5-033062-2023-https-journals-aps-org-prresearch-pdf-10-1103-physrevresearch-5-033062-at-density-rho-0-04-fm-3'),
+              ('Pairing and Spin-singlet and triplet two-body distribution '
+               'functions at $\\rho=0.01$ fm$^{-3}$',
+               2,
+               None,
+               'pairing-and-spin-singlet-and-triplet-two-body-distribution-functions-at-rho-0-01-fm-3'),
+              ('Pairing and Spin-singlet and triplet two-body distribution '
+               'functions at $\\rho=0.04$ fm$^{-3}$',
+               2,
+               None,
+               'pairing-and-spin-singlet-and-triplet-two-body-distribution-functions-at-rho-0-04-fm-3'),
+              ('Pairing and Spin-singlet and triplet two-body distribution '
+               'functions at $\\rho=0.08$ fm$^{-3}$',
+               2,
+               None,
+               'pairing-and-spin-singlet-and-triplet-two-body-distribution-functions-at-rho-0-08-fm-3'),
+              ('Symmetric nuclear matter', 2, None, 'symmetric-nuclear-matter'),
+              ('Self-emerging clustering', 2, None, 'self-emerging-clustering'),
+              ('Clustering: Two-body pair distributions',
+               2,
+               None,
+               'clustering-two-body-pair-distributions'),
+              ('Nuclear matter proton fraction',
+               2,
+               None,
+               'nuclear-matter-proton-fraction'),
+              ('The electron gas in three dimensions with $N=14$ electrons '
+               '(Wigner-Seitz radius $r_s=2$ a.u.), "Gabriel Pescia, Jane Kim '
+               'et al. '
+               'arXiv.2305.07240,":"https://doi.org/10.48550/arXiv.2305.07240"',
+               2,
+               None,
+               'the-electron-gas-in-three-dimensions-with-n-14-electrons-wigner-seitz-radius-r-s-2-a-u-gabriel-pescia-jane-kim-et-al-arxiv-2305-07240-https-doi-org-10-48550-arxiv-2305-07240'),
+              ('Observations (or conclusions if you prefer)',
+               2,
+               None,
+               'observations-or-conclusions-if-you-prefer'),
+              ('More observations', 2, None, 'more-observations'),
+              ('Possible start to raise awareness about ML in your own field',
+               2,
+               None,
+               'possible-start-to-raise-awareness-about-ml-in-your-own-field'),
+              ('Possible questions for discussions',
+               2,
+               None,
+               'possible-questions-for-discussions')]}
 end of tocinfo -->
 
 <body>
@@ -449,7 +529,7 @@ MathJax.Hub.Config({
 
 <!-- ------------------- main content ---------------------- -->
 <center>
-<h1>Week 43: Deep Learning: Constructing a Neural Network code and solving differential equations</h1>
+<h1>Deep Learning: Constructing a Neural Network code and solving differential equations</h1>
 </center>  <!-- document title -->
 
 <!-- author(s): Morten Hjorth-Jensen -->
@@ -7094,6 +7174,325 @@ features).
 </ul>
 <p>Some of these remarks are particular to DNNs, others are shared by all supervised learning methods. This motivates the use of unsupervised methods which in part circumvent these problems.</p>
 
+<!-- !split --><br><br><br><br><br><br><br><br><br><br>
+<h2 id="many-body-physics-quantum-monte-carlo-and-deep-learning">Many-body physics, Quantum Monte Carlo and deep learning </h2>
+<div class="alert alert-block alert-block alert-text-normal">
+<b></b>
+<p>
+<p>Given a hamiltonian \( H \) and a trial wave function \( \Psi_T \), the variational principle states that the expectation value of \( \langle H \rangle \), defined through </p>
+$$
+   \langle E \rangle =
+   \frac{\int d\boldsymbol{R}\Psi^{\ast}_T(\boldsymbol{R})H(\boldsymbol{R})\Psi_T(\boldsymbol{R})}
+        {\int d\boldsymbol{R}\Psi^{\ast}_T(\boldsymbol{R})\Psi_T(\boldsymbol{R})},
+$$
+
+<p>is an upper bound to the ground state energy \( E_0 \) of the hamiltonian \( H \), that is </p>
+$$
+    E_0 \le \langle E \rangle.
+$$
+
+<p>In general, the integrals involved in the calculation of various  expectation values  are multi-dimensional ones. Traditional integration methods such as the Gauss-Legendre will not be adequate for say the  computation of the energy of a many-body system.  <b>Basic philosophy: Let a neural network find the optimal wave function</b></p>
+</div>
+
+
+<!-- !split --><br><br><br><br><br><br><br><br><br><br>
+<h2 id="quantum-monte-carlo-motivation">Quantum Monte Carlo Motivation </h2>
+<div class="alert alert-block alert-block alert-text-normal">
+<b>Basic steps</b>
+<p>
+<p>Choose a trial wave function
+\( \psi_T(\boldsymbol{R}) \).
+</p>
+$$
+   P(\boldsymbol{R},\boldsymbol{\alpha})= \frac{\left|\psi_T(\boldsymbol{R},\boldsymbol{\alpha})\right|^2}{\int \left|\psi_T(\boldsymbol{R},\boldsymbol{\alpha})\right|^2d\boldsymbol{R}}.
+$$
+
+<p>This is our model, or likelihood/probability distribution function  (PDF). It depends on some variational parameters \( \boldsymbol{\alpha} \).
+The approximation to the expectation value of the Hamiltonian is now 
+</p>
+$$
+   \langle E[\boldsymbol{\alpha}] \rangle = 
+   \frac{\int d\boldsymbol{R}\Psi^{\ast}_T(\boldsymbol{R},\boldsymbol{\alpha})H(\boldsymbol{R})\Psi_T(\boldsymbol{R},\boldsymbol{\alpha})}
+        {\int d\boldsymbol{R}\Psi^{\ast}_T(\boldsymbol{R},\boldsymbol{\alpha})\Psi_T(\boldsymbol{R},\boldsymbol{\alpha})}.
+$$
+</div>
+
+
+<!-- !split --><br><br><br><br><br><br><br><br><br><br>
+<h2 id="quantum-monte-carlo-motivation">Quantum Monte Carlo Motivation </h2>
+<div class="alert alert-block alert-block alert-text-normal">
+<b>Define a new quantity</b>
+<p>
+$$
+   E_L(\boldsymbol{R},\boldsymbol{\alpha})=\frac{1}{\psi_T(\boldsymbol{R},\boldsymbol{\alpha})}H\psi_T(\boldsymbol{R},\boldsymbol{\alpha}),
+$$
+
+<p>called the local energy, which, together with our trial PDF yields</p>
+$$
+  \langle E[\boldsymbol{\alpha}] \rangle=\int P(\boldsymbol{R})E_L(\boldsymbol{R},\boldsymbol{\alpha}) d\boldsymbol{R}\approx \frac{1}{N}\sum_{i=1}^NE_L(\boldsymbol{R_i},\boldsymbol{\alpha})
+$$
+
+<p>with \( N \) being the number of Monte Carlo samples.</p>
+</div>
+
+
+<!-- !split --><br><br><br><br><br><br><br><br><br><br>
+<h2 id="energy-derivatives">Energy derivatives </h2>
+<div class="alert alert-block alert-block alert-text-normal">
+<b></b>
+<p>
+<p>The local energy as function of the variational parameters defines now our <b>objective/cost</b> function.</p>
+
+<p>To find the derivatives of the local energy expectation value as function of the variational parameters, we can use the chain rule and the hermiticity of the Hamiltonian.  </p>
+
+<p>Let us define (with the notation \( \langle E[\boldsymbol{\alpha}]\rangle =\langle  E_L\rangle \))</p>
+$$
+\bar{E}_{\alpha_i}=\frac{d\langle  E_L\rangle}{d\alpha_i},
+$$
+
+<p>as the derivative of the energy with respect to the variational parameter \( \alpha_i \)
+We define also the derivative of the trial function (skipping the subindex \( T \)) as 
+</p>
+$$
+\bar{\Psi}_{i}=\frac{d\Psi}{d\alpha_i}.
+$$
+</div>
+
+
+<!-- !split --><br><br><br><br><br><br><br><br><br><br>
+<h2 id="derivatives-of-the-local-energy">Derivatives of the local energy </h2>
+<div class="alert alert-block alert-block alert-text-normal">
+<b></b>
+<p>
+<p>The elements of the gradient of the local energy are </p>
+$$
+\bar{E}_{i}= 2\left( \langle \frac{\bar{\Psi}_{i}}{\Psi}E_L\rangle -\langle \frac{\bar{\Psi}_{i}}{\Psi}\rangle\langle E_L \rangle\right).
+$$
+
+<p>From a computational point of view it means that you need to compute the expectation values of </p>
+$$
+\langle \frac{\bar{\Psi}_{i}}{\Psi}E_L\rangle,
+$$
+
+<p>and</p>
+$$
+\langle \frac{\bar{\Psi}_{i}}{\Psi}\rangle\langle E_L\rangle
+$$
+
+<p>These integrals are evaluted using MC intergration (with all its possible error sources). Use methods like stochastic gradient or other minimization methods to find the optimal parameters.</p>
+</div>
+
+
+<!-- !split --><br><br><br><br><br><br><br><br><br><br>
+<h2 id="deep-learning-neural-networks">Deep learning neural networks  </h2>
+
+<p>An appealing feature of the neural network ansatz is that it is more general than the more conventional product of two-
+and three-body spin-independent Jastrow functions
+</p>
+$$
+\begin{align}
+|\Psi_V^J \rangle = \prod_{i < j < k} \Big( 1-\sum_{\text{cyc}} u(r_{ij}) u(r_{jk})\Big) \prod_{i < j} f(r_{ij}) | \Phi\rangle\,,
+\label{_auto3}
+\end{align}
+$$
+
+<p>which is commonly used for nuclear Hamiltonians that do not contain tensor and spin-orbit terms.
+The above function is replaced by a four-layer Neural Network. 
+</p>
+
+<!-- !split --><br><br><br><br><br><br><br><br><br><br>
+<h2 id="ansatz-for-a-fermionic-state-function-jane-kim-et-al-commun-phys-7-148-2024">Ansatz for a fermionic state function, Jane Kim et al, Commun Phys 7, 148 (2024) </h2>
+
+$$
+\Psi_T(\boldsymbol{X}) =\exp{U(\boldsymbol{X})}\Phi(\boldsymbol{X}).
+$$
+
+
+<div class="alert alert-block alert-block alert-text-normal">
+<b></b>
+<p>
+<ol>
+<li> Build in fermion antisymmetry for network compactness</li>
+<li> Permutation-invariant Jastrow function improves ansatz flexibility</li>
+<li> Build \( U \) and \( \Phi \) functions from fully connected, deep neural networks</li>
+<li> Use Slater determinant (or Pfaffian) \( \Phi \) to enforce antisymmetry with single particle wavefunctions represented by neural networks</li>
+</ol>
+</div>
+
+
+<!-- !split --><br><br><br><br><br><br><br><br><br><br>
+<h2 id="nuclear-matter-setup">Nuclear matter setup </h2>
+
+<br/><br/>
+<center>
+<p><img src="figures/mbpfig4.png" width="900" align="bottom"></p>
+</center>
+<br/><br/>
+
+<!-- !split --><br><br><br><br><br><br><br><br><br><br>
+<h2 id="neutron-star-structure">Neutron star structure </h2>
+
+<br/><br/>
+<center>
+<p><img src="figures/mbpfig5.png" width="900" align="bottom"></p>
+</center>
+<br/><br/>
+
+<!-- !split --><br><br><br><br><br><br><br><br><br><br>
+<h2 id="dilute-neutron-star-matter-from-neural-network-quantum-states-by-fore-et-al-physical-review-research-5-033062-2023-https-journals-aps-org-prresearch-pdf-10-1103-physrevresearch-5-033062-at-density-rho-0-04-fm-3"><a href="https://journals.aps.org/prresearch/pdf/10.1103/PhysRevResearch.5.033062" target="_blank">Dilute neutron star matter from neural-network quantum states by Fore et al, Physical Review Research 5, 033062 (2023)</a> at density \( \rho=0.04 \) fm$^{-3}$ </h2>
+
+<div class="alert alert-block alert-block alert-text-normal">
+<b></b>
+<p>
+<br/><br/>
+<center>
+<p><img src="figures/nmatter.png" width="700" align="bottom"></p>
+</center>
+<br/><br/>
+</div>
+
+
+<!-- !split --><br><br><br><br><br><br><br><br><br><br>
+<h2 id="pairing-and-spin-singlet-and-triplet-two-body-distribution-functions-at-rho-0-01-fm-3">Pairing and Spin-singlet and triplet two-body distribution functions at \( \rho=0.01 \) fm$^{-3}$ </h2>
+<div class="alert alert-block alert-block alert-text-normal">
+<b></b>
+<p>
+<br/><br/>
+<center>
+<p><img src="figures/01_tbd.png" width="700" align="bottom"></p>
+</center>
+<br/><br/>
+</div>
+
+
+<!-- !split --><br><br><br><br><br><br><br><br><br><br>
+<h2 id="pairing-and-spin-singlet-and-triplet-two-body-distribution-functions-at-rho-0-04-fm-3">Pairing and Spin-singlet and triplet two-body distribution functions at \( \rho=0.04 \) fm$^{-3}$ </h2>
+
+<div class="alert alert-block alert-block alert-text-normal">
+<b></b>
+<p>
+<br/><br/>
+<center>
+<p><img src="figures/04_tbd.png" width="700" align="bottom"></p>
+</center>
+<br/><br/>
+</div>
+
+
+<!-- !split --><br><br><br><br><br><br><br><br><br><br>
+<h2 id="pairing-and-spin-singlet-and-triplet-two-body-distribution-functions-at-rho-0-08-fm-3">Pairing and Spin-singlet and triplet two-body distribution functions at \( \rho=0.08 \) fm$^{-3}$ </h2>
+<div class="alert alert-block alert-block alert-text-normal">
+<b></b>
+<p>
+<br/><br/>
+<center>
+<p><img src="figures/08_tbd.png" width="700" align="bottom"></p>
+</center>
+<br/><br/>
+</div>
+
+
+<!-- !split --><br><br><br><br><br><br><br><br><br><br>
+<h2 id="symmetric-nuclear-matter">Symmetric nuclear matter  </h2>
+
+<br/><br/>
+<center>
+<p><img src="figures/mbpfig6.png" width="900" align="bottom"></p>
+</center>
+<br/><br/>
+
+<!-- !split --><br><br><br><br><br><br><br><br><br><br>
+<h2 id="self-emerging-clustering">Self-emerging clustering  </h2>
+
+<br/><br/>
+<center>
+<p><img src="figures/mbpfig7.png" width="900" align="bottom"></p>
+</center>
+<br/><br/>
+
+<!-- !split --><br><br><br><br><br><br><br><br><br><br>
+<h2 id="clustering-two-body-pair-distributions">Clustering: Two-body pair distributions  </h2>
+
+<br/><br/>
+<center>
+<p><img src="figures/mbpfig8.png" width="900" align="bottom"></p>
+</center>
+<br/><br/>
+
+<!-- !split --><br><br><br><br><br><br><br><br><br><br>
+<h2 id="nuclear-matter-proton-fraction">Nuclear matter proton fraction  </h2>
+
+<br/><br/>
+<center>
+<p><img src="figures/mbpfig9.png" width="900" align="bottom"></p>
+</center>
+<br/><br/>
+
+<!-- !split --><br><br><br><br><br><br><br><br><br><br>
+<h2 id="the-electron-gas-in-three-dimensions-with-n-14-electrons-wigner-seitz-radius-r-s-2-a-u-gabriel-pescia-jane-kim-et-al-arxiv-2305-07240-https-doi-org-10-48550-arxiv-2305-07240">The electron gas in three dimensions with \( N=14 \) electrons (Wigner-Seitz radius \( r_s=2 \) a.u.), <a href="https://doi.org/10.48550/arXiv.2305.07240" target="_blank">Gabriel Pescia, Jane Kim et al. arXiv.2305.07240,</a> </h2>
+
+<div class="alert alert-block alert-block alert-text-normal">
+<b></b>
+<p>
+<br/><br/>
+<center>
+<p><img src="figures/elgasnew.png" width="700" align="bottom"></p>
+</center>
+<br/><br/>
+</div>
+
+
+<!-- !split --><br><br><br><br><br><br><br><br><br><br>
+<h2 id="observations-or-conclusions-if-you-prefer">Observations (or conclusions if you prefer) </h2>
+<div class="alert alert-block alert-block alert-text-normal">
+<b></b>
+<p>
+<ul>
+<li> Need for AI/Machine Learning in all sciences, lots of ongoing activities</li>
+<li> To solve many complex problems and facilitate discoveries, multidisciplinary efforts efforts are required involving scientists in  physics, statistics, computational science, applied math and other fields.</li>
+<li> There is a need for  focused AI/ML learning efforts that will benefit experimental and theoretical programs</li>
+</ul>
+</div>
+
+
+<!-- !split --><br><br><br><br><br><br><br><br><br><br>
+<h2 id="more-observations">More observations  </h2>
+<div class="alert alert-block alert-block alert-text-normal">
+<b></b>
+<p>
+<ul>
+<li> How do we develop insights, competences, knowledge in statistical learning that can advance a given field?</li>
+<ul>
+  <li> For example: Can we use ML to find out which correlations are relevant and thereby diminish the dimensionality problem in standard many-body  theories?</li>
+  <li> Can we use AI/ML in detector analysis, accelerator design, analysis of experimental data and more?</li>
+  <li> Can we use AL/ML to carry out reliable extrapolations by using current experimental knowledge and current theoretical models?</li>
+</ul>
+<li> The community needs to invest in relevant educational efforts and training of scientists with knowledge in AI/ML. These are great challenges to the CS and DS communities</li>
+<li> Quantum computing and quantum machine learning not discussed here</li>
+<li> Most likely tons of things I have forgotten</li>
+</ul>
+</div>
+
+
+<!-- !split --><br><br><br><br><br><br><br><br><br><br>
+<h2 id="possible-start-to-raise-awareness-about-ml-in-your-own-field">Possible start to raise awareness about ML in your own field </h2>
+<div class="alert alert-block alert-block alert-text-normal">
+<b></b>
+<p>
+<ul>
+<li> Make an ML challenge in your own field a la <a href="https://home.cern/news/news/computing/higgs-boson-machine-learning-challenge" target="_blank">Learning to discover: the Higgs boson machine learning challenge</a>. Alternatively go to kaggle.com at <a href="https://www.kaggle.com/c/higgs-boson" target="_blank"><tt>https://www.kaggle.com/c/higgs-boson</tt></a></li>
+<li> HEP@CERN and HEP in general have made significant impacts in the field of machine learning and AI. Something to learn from</li>
+</ul>
+</div>
+
+
+<!-- !split --><br><br><br><br><br><br><br><br><br><br>
+<h2 id="possible-questions-for-discussions">Possible questions for discussions </h2>
+
+<ol>
+<li> How do we incorporate these topics in our education?</li>
+<li> More difficult: what are the consequences for universities and our educational mission?</li>
+</ol>
 <!-- ------------------- end of main content --------------- -->
 <center style="font-size:80%">
 <!-- copyright --> &copy; 1999-2024, Morten Hjorth-Jensen. Released under CC Attribution-NonCommercial 4.0 license
