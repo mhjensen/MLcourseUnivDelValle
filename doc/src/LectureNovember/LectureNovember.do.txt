@@ -11,7 +11,7 @@ DATE: November 5-8, 2024
 * Solving differential equations with Neural Networks
 * See also previous notes from October 10 at URL:"https://github.com/mhjensen/MLcourseUnivDelValle/blob/main/doc/pub/LectureOctober10/ipynb/LectureOctober10.ipynb"
 * Exercise on setting up a feed forward neural network at URL:"https://github.com/mhjensen/MLcourseUnivDelValle/blob/main/doc/Exercises/feedforwardpart.ipynb"
-* Exercise on back propagationat URL:"https://github.com/mhjensen/MLcourseUnivDelValle/blob/main/doc/Exercises/backprogatepart.ipynb
+* Exercise on back propagationat URL:"https://github.com/mhjensen/MLcourseUnivDelValle/blob/main/doc/Exercises/backprogatepart.ipynb"
 !eblock
 
 !split
